@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { Menu, Phone, X, Languages } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { useRouterState } from "@tanstack/react-router";
 
 import { Button } from "@/components/ui/button";
 import { LocaleLink } from "@/components/site/LocaleLink";
+import { FlagIcon } from "@/components/site/FlagIcon";
 import { company, images } from "@/lib/site";
 import { dictionaries, otherLocale, path, routePaths, type Locale, type PageKey } from "@/lib/i18n";
 
@@ -76,7 +77,7 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
             aria-label={`${t.common.languageLabel}: ${t.common.switchTo}`}
             hrefLang={alt}
           >
-            <Languages className="size-4" aria-hidden="true" />
+            <FlagIcon locale={alt} className="size-5 rounded-sm" />
             {alt.toUpperCase()}
           </LocaleLink>
           <Button asChild variant="outline" size="sm">
@@ -121,7 +122,7 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
                 hrefLang={alt}
                 className="inline-flex items-center gap-2 rounded-md px-2 py-3 text-sm font-semibold"
               >
-                <Languages className="size-4" aria-hidden="true" />
+                <FlagIcon locale={alt} className="size-5 rounded-sm" />
                 {t.common.switchTo}
               </LocaleLink>
               <Button asChild variant="outline">
