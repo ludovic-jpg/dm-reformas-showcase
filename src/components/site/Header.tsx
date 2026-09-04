@@ -122,7 +122,7 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
                 hrefLang={alt}
                 className="inline-flex items-center gap-2 rounded-md px-2 py-3 text-sm font-semibold"
               >
-                <Languages className="size-4" aria-hidden="true" />
+                <FlagIcon locale={alt} className="size-5 rounded-sm" />
                 {t.common.switchTo}
               </LocaleLink>
               <Button asChild variant="outline">
