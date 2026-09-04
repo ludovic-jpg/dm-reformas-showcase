@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { Menu, Phone, X, Languages } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { useRouterState } from "@tanstack/react-router";
 
 import { Button } from "@/components/ui/button";
 import { LocaleLink } from "@/components/site/LocaleLink";
+import { FlagIcon } from "@/components/site/FlagIcon";
 import { company, images } from "@/lib/site";
 import { dictionaries, otherLocale, path, routePaths, type Locale, type PageKey } from "@/lib/i18n";
 
