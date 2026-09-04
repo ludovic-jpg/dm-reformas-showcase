@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "DM Reformas — Reformas y construcción en Torrevieja" },
+      { name: "description", content: "Innovamos en tu proyecto: reformas integrales, cocinas, baños, fachadas y piscinas en Torrevieja y toda la Costa Blanca." },
+      { name: "author", content: "DM Reformas" },
+      { property: "og:title", content: "DM Reformas — Reformas y construcción en Torrevieja" },
+      { property: "og:description", content: "Innovamos en tu proyecto: reformas en Torrevieja, Orihuela Costa y Costa Blanca." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "DM Reformas" },
     ],
     links: [
       {
