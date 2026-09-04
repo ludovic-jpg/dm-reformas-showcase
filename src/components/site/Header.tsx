@@ -77,7 +77,7 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
             aria-label={`${t.common.languageLabel}: ${t.common.switchTo}`}
             hrefLang={alt}
           >
-            <Languages className="size-4" aria-hidden="true" />
+            <FlagIcon locale={alt} className="size-5 rounded-sm" />
             {alt.toUpperCase()}
           </LocaleLink>
           <Button asChild variant="outline" size="sm">
