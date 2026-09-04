@@ -9,5 +9,7 @@ export function LocaleLink({
   to,
   ...props
 }: Omit<ComponentProps<typeof Link>, "to"> & { to: string }) {
-  return <Link {...props} to={to as ComponentProps<typeof Link>["to"]} />;
+  const AnyLink = Link as unknown as (props: Record<string, unknown>) => React.ReactElement;
+  return <AnyLink {...props} to={to} />;
 }
+
