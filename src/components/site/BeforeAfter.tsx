@@ -39,17 +39,16 @@ export function BeforeAfter({ before, after, beforeLabel, afterLabel, hint, alt 
           height={768}
           className="absolute inset-0 size-full object-cover"
         />
-        <div className="absolute inset-0 overflow-hidden" style={{ width: `${value}%` }}>
-          <img
-            src={before}
-            alt={`${beforeLabel} — ${alt}`}
-            loading="lazy"
-            width={1024}
-            height={768}
-            className="absolute inset-0 h-full w-[100cqw] object-cover"
-            style={{ width: containerRef.current?.clientWidth ?? "100%" }}
-          />
-        </div>
+        <img
+          src={before}
+          alt={`${beforeLabel} — ${alt}`}
+          loading="lazy"
+          width={1024}
+          height={768}
+          className="absolute inset-0 size-full object-cover"
+          style={{ clipPath: `inset(0 ${100 - value}% 0 0)` }}
+        />
+
 
         <span className="absolute left-3 top-3 rounded-sm bg-surface/80 px-2 py-1 text-[11px] font-semibold uppercase tracking-widest text-surface-foreground">
           {beforeLabel}
