@@ -3,7 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { HomePage } from "@/pages/HomePage";
 import { pageHead } from "@/lib/seo";
 
-export const Route = createFileRoute("/")({
-  head: () => pageHead("es", "home"),
-  component: () => <HomePage locale="es" />,
+export const Route = createFileRoute("/en/")({
+  head: () => pageHead("en", "home"),
+  component: () => <HomePage locale="en" />,
 });
