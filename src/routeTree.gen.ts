@@ -10,33 +10,258 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AvisoLegalRouteImport } from './routes/aviso-legal'
+import { Route as ContactoRouteImport } from './routes/contacto'
+import { Route as NosotrosRouteImport } from './routes/nosotros'
+import { Route as PoliticaDeCookiesRouteImport } from './routes/politica-de-cookies'
+import { Route as PoliticaDePrivacidadRouteImport } from './routes/politica-de-privacidad'
+import { Route as ProyectosRouteImport } from './routes/proyectos'
+import { Route as ServiciosRouteImport } from './routes/servicios'
+import { Route as TestimoniosRouteImport } from './routes/testimonios'
+import { Route as EnIndexRouteImport } from './routes/en.index'
+import { Route as EnAboutRouteImport } from './routes/en.about'
+import { Route as EnContactRouteImport } from './routes/en.contact'
+import { Route as EnCookiePolicyRouteImport } from './routes/en.cookie-policy'
+import { Route as EnLegalNoticeRouteImport } from './routes/en.legal-notice'
+import { Route as EnPrivacyPolicyRouteImport } from './routes/en.privacy-policy'
+import { Route as EnProjectsRouteImport } from './routes/en.projects'
+import { Route as EnServicesRouteImport } from './routes/en.services'
+import { Route as EnTestimonialsRouteImport } from './routes/en.testimonials'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AvisoLegalRoute = AvisoLegalRouteImport.update({
+  id: '/aviso-legal',
+  path: '/aviso-legal',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactoRoute = ContactoRouteImport.update({
+  id: '/contacto',
+  path: '/contacto',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NosotrosRoute = NosotrosRouteImport.update({
+  id: '/nosotros',
+  path: '/nosotros',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PoliticaDeCookiesRoute = PoliticaDeCookiesRouteImport.update({
+  id: '/politica-de-cookies',
+  path: '/politica-de-cookies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PoliticaDePrivacidadRoute = PoliticaDePrivacidadRouteImport.update({
+  id: '/politica-de-privacidad',
+  path: '/politica-de-privacidad',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProyectosRoute = ProyectosRouteImport.update({
+  id: '/proyectos',
+  path: '/proyectos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServiciosRoute = ServiciosRouteImport.update({
+  id: '/servicios',
+  path: '/servicios',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TestimoniosRoute = TestimoniosRouteImport.update({
+  id: '/testimonios',
+  path: '/testimonios',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnIndexRoute = EnIndexRouteImport.update({
+  id: '/en/',
+  path: '/en/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnAboutRoute = EnAboutRouteImport.update({
+  id: '/en/about',
+  path: '/en/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnContactRoute = EnContactRouteImport.update({
+  id: '/en/contact',
+  path: '/en/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnCookiePolicyRoute = EnCookiePolicyRouteImport.update({
+  id: '/en/cookie-policy',
+  path: '/en/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnLegalNoticeRoute = EnLegalNoticeRouteImport.update({
+  id: '/en/legal-notice',
+  path: '/en/legal-notice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnPrivacyPolicyRoute = EnPrivacyPolicyRouteImport.update({
+  id: '/en/privacy-policy',
+  path: '/en/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnProjectsRoute = EnProjectsRouteImport.update({
+  id: '/en/projects',
+  path: '/en/projects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnServicesRoute = EnServicesRouteImport.update({
+  id: '/en/services',
+  path: '/en/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnTestimonialsRoute = EnTestimonialsRouteImport.update({
+  id: '/en/testimonials',
+  path: '/en/testimonials',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/aviso-legal': typeof AvisoLegalRoute
+  '/contacto': typeof ContactoRoute
+  '/nosotros': typeof NosotrosRoute
+  '/politica-de-cookies': typeof PoliticaDeCookiesRoute
+  '/politica-de-privacidad': typeof PoliticaDePrivacidadRoute
+  '/proyectos': typeof ProyectosRoute
+  '/servicios': typeof ServiciosRoute
+  '/testimonios': typeof TestimoniosRoute
+  '/en/about': typeof EnAboutRoute
+  '/en/contact': typeof EnContactRoute
+  '/en/cookie-policy': typeof EnCookiePolicyRoute
+  '/en/legal-notice': typeof EnLegalNoticeRoute
+  '/en/privacy-policy': typeof EnPrivacyPolicyRoute
+  '/en/projects': typeof EnProjectsRoute
+  '/en/services': typeof EnServicesRoute
+  '/en/testimonials': typeof EnTestimonialsRoute
+  '/en/': typeof EnIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/aviso-legal': typeof AvisoLegalRoute
+  '/contacto': typeof ContactoRoute
+  '/nosotros': typeof NosotrosRoute
+  '/politica-de-cookies': typeof PoliticaDeCookiesRoute
+  '/politica-de-privacidad': typeof PoliticaDePrivacidadRoute
+  '/proyectos': typeof ProyectosRoute
+  '/servicios': typeof ServiciosRoute
+  '/testimonios': typeof TestimoniosRoute
+  '/en/about': typeof EnAboutRoute
+  '/en/contact': typeof EnContactRoute
+  '/en/cookie-policy': typeof EnCookiePolicyRoute
+  '/en/legal-notice': typeof EnLegalNoticeRoute
+  '/en/privacy-policy': typeof EnPrivacyPolicyRoute
+  '/en/projects': typeof EnProjectsRoute
+  '/en/services': typeof EnServicesRoute
+  '/en/testimonials': typeof EnTestimonialsRoute
+  '/en': typeof EnIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/aviso-legal': typeof AvisoLegalRoute
+  '/contacto': typeof ContactoRoute
+  '/nosotros': typeof NosotrosRoute
+  '/politica-de-cookies': typeof PoliticaDeCookiesRoute
+  '/politica-de-privacidad': typeof PoliticaDePrivacidadRoute
+  '/proyectos': typeof ProyectosRoute
+  '/servicios': typeof ServiciosRoute
+  '/testimonios': typeof TestimoniosRoute
+  '/en/about': typeof EnAboutRoute
+  '/en/contact': typeof EnContactRoute
+  '/en/cookie-policy': typeof EnCookiePolicyRoute
+  '/en/legal-notice': typeof EnLegalNoticeRoute
+  '/en/privacy-policy': typeof EnPrivacyPolicyRoute
+  '/en/projects': typeof EnProjectsRoute
+  '/en/services': typeof EnServicesRoute
+  '/en/testimonials': typeof EnTestimonialsRoute
+  '/en/': typeof EnIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/aviso-legal'
+    | '/contacto'
+    | '/nosotros'
+    | '/politica-de-cookies'
+    | '/politica-de-privacidad'
+    | '/proyectos'
+    | '/servicios'
+    | '/testimonios'
+    | '/en/about'
+    | '/en/contact'
+    | '/en/cookie-policy'
+    | '/en/legal-notice'
+    | '/en/privacy-policy'
+    | '/en/projects'
+    | '/en/services'
+    | '/en/testimonials'
+    | '/en/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/aviso-legal'
+    | '/contacto'
+    | '/nosotros'
+    | '/politica-de-cookies'
+    | '/politica-de-privacidad'
+    | '/proyectos'
+    | '/servicios'
+    | '/testimonios'
+    | '/en/about'
+    | '/en/contact'
+    | '/en/cookie-policy'
+    | '/en/legal-notice'
+    | '/en/privacy-policy'
+    | '/en/projects'
+    | '/en/services'
+    | '/en/testimonials'
+    | '/en'
+  id:
+    | '__root__'
+    | '/'
+    | '/aviso-legal'
+    | '/contacto'
+    | '/nosotros'
+    | '/politica-de-cookies'
+    | '/politica-de-privacidad'
+    | '/proyectos'
+    | '/servicios'
+    | '/testimonios'
+    | '/en/about'
+    | '/en/contact'
+    | '/en/cookie-policy'
+    | '/en/legal-notice'
+    | '/en/privacy-policy'
+    | '/en/projects'
+    | '/en/services'
+    | '/en/testimonials'
+    | '/en/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AvisoLegalRoute: typeof AvisoLegalRoute
+  ContactoRoute: typeof ContactoRoute
+  NosotrosRoute: typeof NosotrosRoute
+  PoliticaDeCookiesRoute: typeof PoliticaDeCookiesRoute
+  PoliticaDePrivacidadRoute: typeof PoliticaDePrivacidadRoute
+  ProyectosRoute: typeof ProyectosRoute
+  ServiciosRoute: typeof ServiciosRoute
+  TestimoniosRoute: typeof TestimoniosRoute
+  EnAboutRoute: typeof EnAboutRoute
+  EnContactRoute: typeof EnContactRoute
+  EnCookiePolicyRoute: typeof EnCookiePolicyRoute
+  EnLegalNoticeRoute: typeof EnLegalNoticeRoute
+  EnPrivacyPolicyRoute: typeof EnPrivacyPolicyRoute
+  EnProjectsRoute: typeof EnProjectsRoute
+  EnServicesRoute: typeof EnServicesRoute
+  EnTestimonialsRoute: typeof EnTestimonialsRoute
+  EnIndexRoute: typeof EnIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +273,147 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/aviso-legal': {
+      id: '/aviso-legal'
+      path: '/aviso-legal'
+      fullPath: '/aviso-legal'
+      preLoaderRoute: typeof AvisoLegalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contacto': {
+      id: '/contacto'
+      path: '/contacto'
+      fullPath: '/contacto'
+      preLoaderRoute: typeof ContactoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nosotros': {
+      id: '/nosotros'
+      path: '/nosotros'
+      fullPath: '/nosotros'
+      preLoaderRoute: typeof NosotrosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/politica-de-cookies': {
+      id: '/politica-de-cookies'
+      path: '/politica-de-cookies'
+      fullPath: '/politica-de-cookies'
+      preLoaderRoute: typeof PoliticaDeCookiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/politica-de-privacidad': {
+      id: '/politica-de-privacidad'
+      path: '/politica-de-privacidad'
+      fullPath: '/politica-de-privacidad'
+      preLoaderRoute: typeof PoliticaDePrivacidadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/proyectos': {
+      id: '/proyectos'
+      path: '/proyectos'
+      fullPath: '/proyectos'
+      preLoaderRoute: typeof ProyectosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/servicios': {
+      id: '/servicios'
+      path: '/servicios'
+      fullPath: '/servicios'
+      preLoaderRoute: typeof ServiciosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/testimonios': {
+      id: '/testimonios'
+      path: '/testimonios'
+      fullPath: '/testimonios'
+      preLoaderRoute: typeof TestimoniosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/': {
+      id: '/en/'
+      path: '/en'
+      fullPath: '/en/'
+      preLoaderRoute: typeof EnIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/about': {
+      id: '/en/about'
+      path: '/en/about'
+      fullPath: '/en/about'
+      preLoaderRoute: typeof EnAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/contact': {
+      id: '/en/contact'
+      path: '/en/contact'
+      fullPath: '/en/contact'
+      preLoaderRoute: typeof EnContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/cookie-policy': {
+      id: '/en/cookie-policy'
+      path: '/en/cookie-policy'
+      fullPath: '/en/cookie-policy'
+      preLoaderRoute: typeof EnCookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/legal-notice': {
+      id: '/en/legal-notice'
+      path: '/en/legal-notice'
+      fullPath: '/en/legal-notice'
+      preLoaderRoute: typeof EnLegalNoticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/privacy-policy': {
+      id: '/en/privacy-policy'
+      path: '/en/privacy-policy'
+      fullPath: '/en/privacy-policy'
+      preLoaderRoute: typeof EnPrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/projects': {
+      id: '/en/projects'
+      path: '/en/projects'
+      fullPath: '/en/projects'
+      preLoaderRoute: typeof EnProjectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services': {
+      id: '/en/services'
+      path: '/en/services'
+      fullPath: '/en/services'
+      preLoaderRoute: typeof EnServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/testimonials': {
+      id: '/en/testimonials'
+      path: '/en/testimonials'
+      fullPath: '/en/testimonials'
+      preLoaderRoute: typeof EnTestimonialsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AvisoLegalRoute: AvisoLegalRoute,
+  ContactoRoute: ContactoRoute,
+  NosotrosRoute: NosotrosRoute,
+  PoliticaDeCookiesRoute: PoliticaDeCookiesRoute,
+  PoliticaDePrivacidadRoute: PoliticaDePrivacidadRoute,
+  ProyectosRoute: ProyectosRoute,
+  ServiciosRoute: ServiciosRoute,
+  TestimoniosRoute: TestimoniosRoute,
+  EnAboutRoute: EnAboutRoute,
+  EnContactRoute: EnContactRoute,
+  EnCookiePolicyRoute: EnCookiePolicyRoute,
+  EnLegalNoticeRoute: EnLegalNoticeRoute,
+  EnPrivacyPolicyRoute: EnPrivacyPolicyRoute,
+  EnProjectsRoute: EnProjectsRoute,
+  EnServicesRoute: EnServicesRoute,
+  EnTestimonialsRoute: EnTestimonialsRoute,
+  EnIndexRoute: EnIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
