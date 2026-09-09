@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-reformas.jpg";
+
 import serviceCocina from "@/assets/service-cocina.jpg";
 import serviceBano from "@/assets/service-bano.jpg";
 import serviceFachada from "@/assets/service-fachada.jpg";
@@ -16,7 +16,7 @@ import officeAsset from "@/assets/office.asset.json";
 import logoAsset from "@/assets/dm-logo.asset.json";
 
 export const images = {
-  hero: heroImage,
+  hero: officeAsset.url,
   cocina: serviceCocina,
   bano: serviceBano,
   fachada: serviceFachada,
