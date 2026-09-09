@@ -45,11 +45,11 @@ export function HomePage({ locale }: { locale: Locale }) {
       {/* Hero */}
       <section className="relative isolate">
         <img
-          src={images.hero}
+          src={images.homeHero}
           alt={
             locale === "es"
-              ? "Salón de una vivienda reformada por DM Reformas en Torrevieja"
-              : "Living room of a home renovated by DM Reformas in Torrevieja"
+              ? "Profesional de DM Reformas trabajando en una reforma en Torrevieja"
+              : "DM Reformas professional working on a renovation in Torrevieja"
           }
           width={1920}
           height={1088}

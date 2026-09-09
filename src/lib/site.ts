@@ -32,6 +32,7 @@ export const images = {
   aboutTeam: aboutTeamAsset.url,
   office: officeAsset.url,
   logo: logoAsset.url,
+  homeHero: aboutTeamAsset.url,
 };
 
 export const company = {
