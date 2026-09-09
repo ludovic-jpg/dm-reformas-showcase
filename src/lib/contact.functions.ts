@@ -82,7 +82,7 @@ async function sendNotificationEmail(data: z.output<typeof submissionSchema>): P
         "X-Connection-Api-Key": resendKey,
       },
       body: JSON.stringify({
-        from: "DM Reformas <onboarding@resend.dev>",
+        from: "DM Reformas <contacto@reformasorihuelacosta.com>",
         to: RECIPIENTS,
         reply_to: data.email,
         subject: `Nueva solicitud (${data.reformType}) — ${data.name}`,
