@@ -16,7 +16,7 @@ import officeAsset from "@/assets/office.asset.json";
 import logoAsset from "@/assets/dm-logo.asset.json";
 
 export const images = {
-  hero: heroImage,
+  hero: officeAsset.url,
   cocina: serviceCocina,
   bano: serviceBano,
   fachada: serviceFachada,
