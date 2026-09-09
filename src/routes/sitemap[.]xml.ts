@@ -17,7 +17,6 @@ const pages: { page: PageKey; priority: string }[] = [
 ];
 
 function buildSitemap() {
-  const today = new Date().toISOString().slice(0, 10);
   const urls = locales
     .flatMap((locale) =>
       pages.map(({ page, priority }) => {
@@ -31,7 +30,7 @@ function buildSitemap() {
             `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${routePaths.es[page]}"/>`,
           )
           .join("\n");
-        return `  <url>\n    <loc>${loc}</loc>\n${alternates}\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+        return `  <url>\n    <loc>${loc}</loc>\n${alternates}\n    <changefreq>monthly</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
       }),
     )
     .join("\n");
