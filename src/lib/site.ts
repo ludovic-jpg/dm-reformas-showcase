@@ -10,13 +10,18 @@ import beforePiso from "@/assets/before-piso.jpg";
 import beforeBano from "@/assets/before-bano.jpg";
 import beforeCocina from "@/assets/before-cocina.jpg";
 import beforeFachada from "@/assets/before-fachada.jpg";
+import beforePiscina from "@/assets/before-piscina.jpg";
+import beforeLocal from "@/assets/before-local.jpg";
+import beforeTerraza from "@/assets/before-terraza.jpg";
+import afterSalon from "@/assets/after-salon.jpg";
 import artisanAsset from "@/assets/artisan.asset.json";
 import aboutTeamAsset from "@/assets/nosotros-team.asset.json";
 import officeAsset from "@/assets/office.asset.json";
 import logoAsset from "@/assets/dm-logo.asset.json";
 
 export const images = {
-  hero: officeAsset.url,
+  hero: afterSalon,
+  salon: afterSalon,
   cocina: serviceCocina,
   bano: serviceBano,
   fachada: serviceFachada,
@@ -28,6 +33,9 @@ export const images = {
   beforeBano,
   beforeCocina,
   beforeFachada,
+  beforePiscina,
+  beforeLocal,
+  beforeTerraza,
   artisan: artisanAsset.url,
   aboutTeam: aboutTeamAsset.url,
   office: officeAsset.url,
