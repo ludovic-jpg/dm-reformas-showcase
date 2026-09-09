@@ -10,13 +10,18 @@ import beforePiso from "@/assets/before-piso.jpg";
 import beforeBano from "@/assets/before-bano.jpg";
 import beforeCocina from "@/assets/before-cocina.jpg";
 import beforeFachada from "@/assets/before-fachada.jpg";
+import beforePiscina from "@/assets/before-piscina.jpg";
+import beforeLocal from "@/assets/before-local.jpg";
+import beforeTerraza from "@/assets/before-terraza.jpg";
+import afterSalon from "@/assets/after-salon.jpg";
 import artisanAsset from "@/assets/artisan.asset.json";
 import aboutTeamAsset from "@/assets/nosotros-team.asset.json";
 import officeAsset from "@/assets/office.asset.json";
 import logoAsset from "@/assets/dm-logo.asset.json";
 
 export const images = {
-  hero: officeAsset.url,
+  hero: afterSalon,
+  salon: afterSalon,
   cocina: serviceCocina,
   bano: serviceBano,
   fachada: serviceFachada,
@@ -28,6 +33,9 @@ export const images = {
   beforeBano,
   beforeCocina,
   beforeFachada,
+  beforePiscina,
+  beforeLocal,
+  beforeTerraza,
   artisan: artisanAsset.url,
   aboutTeam: aboutTeamAsset.url,
   office: officeAsset.url,
@@ -283,7 +291,7 @@ export const projects: ProjectItem[] = [
     id: "piscina-quesada",
     category: "piscina",
     city: "Ciudad Quesada",
-    before: images.beforeFachada,
+    before: images.beforePiscina,
     after: images.piscina,
     duration: "4 semanas / 4 weeks",
     title: {
@@ -303,7 +311,7 @@ export const projects: ProjectItem[] = [
     id: "local-torrevieja",
     category: "local",
     city: "Torrevieja centro",
-    before: images.beforePiso,
+    before: images.beforeLocal,
     after: images.local,
     duration: "6 semanas / 6 weeks",
     title: {
@@ -323,7 +331,7 @@ export const projects: ProjectItem[] = [
     id: "terraza-balcones",
     category: "extension",
     city: "Los Balcones",
-    before: images.beforePiso,
+    before: images.beforeTerraza,
     after: images.terraza,
     duration: "5 semanas / 5 weeks",
     title: {
