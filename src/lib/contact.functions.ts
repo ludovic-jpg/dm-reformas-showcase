@@ -18,7 +18,7 @@ const submissionSchema = z.object({
 
 export type ContactSubmissionInput = z.input<typeof submissionSchema>;
 
-const RECIPIENT = "dm.reformasinnovamos@gmail.com";
+const RECIPIENTS = ["dm.reformasinnovamos@gmail.com", "backtobusiness.eu@gmail.com"];
 
 function escapeHtml(value: string) {
   return value
@@ -83,7 +83,7 @@ async function sendNotificationEmail(data: z.output<typeof submissionSchema>): P
       },
       body: JSON.stringify({
         from: "DM Reformas <onboarding@resend.dev>",
-        to: [RECIPIENT],
+        to: RECIPIENTS,
         reply_to: data.email,
         subject: `Nueva solicitud (${data.reformType}) — ${data.name}`,
         html: buildEmailHtml(data),
