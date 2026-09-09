@@ -291,7 +291,7 @@ export const projects: ProjectItem[] = [
     id: "piscina-quesada",
     category: "piscina",
     city: "Ciudad Quesada",
-    before: images.beforeFachada,
+    before: images.beforePiscina,
     after: images.piscina,
     duration: "4 semanas / 4 weeks",
     title: {
@@ -311,7 +311,7 @@ export const projects: ProjectItem[] = [
     id: "local-torrevieja",
     category: "local",
     city: "Torrevieja centro",
-    before: images.beforePiso,
+    before: images.beforeLocal,
     after: images.local,
     duration: "6 semanas / 6 weeks",
     title: {
@@ -331,7 +331,7 @@ export const projects: ProjectItem[] = [
     id: "terraza-balcones",
     category: "extension",
     city: "Los Balcones",
-    before: images.beforePiso,
+    before: images.beforeTerraza,
     after: images.terraza,
     duration: "5 semanas / 5 weeks",
     title: {
