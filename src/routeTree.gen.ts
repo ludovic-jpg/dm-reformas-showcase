@@ -17,6 +17,7 @@ import { Route as PoliticaDeCookiesRouteImport } from './routes/politica-de-cook
 import { Route as PoliticaDePrivacidadRouteImport } from './routes/politica-de-privacidad'
 import { Route as ProyectosRouteImport } from './routes/proyectos'
 import { Route as ServiciosRouteImport } from './routes/servicios'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TestimoniosRouteImport } from './routes/testimonios'
 import { Route as EnIndexRouteImport } from './routes/en.index'
 import { Route as EnAboutRouteImport } from './routes/en.about'
@@ -66,6 +67,11 @@ const ProyectosRoute = ProyectosRouteImport.update({
 const ServiciosRoute = ServiciosRouteImport.update({
   id: '/servicios',
   path: '/servicios',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TestimoniosRoute = TestimoniosRouteImport.update({
@@ -128,6 +134,7 @@ export interface FileRoutesByFullPath {
   '/politica-de-privacidad': typeof PoliticaDePrivacidadRoute
   '/proyectos': typeof ProyectosRoute
   '/servicios': typeof ServiciosRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/testimonios': typeof TestimoniosRoute
   '/en/about': typeof EnAboutRoute
   '/en/contact': typeof EnContactRoute
@@ -148,6 +155,7 @@ export interface FileRoutesByTo {
   '/politica-de-privacidad': typeof PoliticaDePrivacidadRoute
   '/proyectos': typeof ProyectosRoute
   '/servicios': typeof ServiciosRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/testimonios': typeof TestimoniosRoute
   '/en/about': typeof EnAboutRoute
   '/en/contact': typeof EnContactRoute
@@ -169,6 +177,7 @@ export interface FileRoutesById {
   '/politica-de-privacidad': typeof PoliticaDePrivacidadRoute
   '/proyectos': typeof ProyectosRoute
   '/servicios': typeof ServiciosRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/testimonios': typeof TestimoniosRoute
   '/en/about': typeof EnAboutRoute
   '/en/contact': typeof EnContactRoute
@@ -191,6 +200,7 @@ export interface FileRouteTypes {
     | '/politica-de-privacidad'
     | '/proyectos'
     | '/servicios'
+    | '/sitemap.xml'
     | '/testimonios'
     | '/en/about'
     | '/en/contact'
@@ -211,6 +221,7 @@ export interface FileRouteTypes {
     | '/politica-de-privacidad'
     | '/proyectos'
     | '/servicios'
+    | '/sitemap.xml'
     | '/testimonios'
     | '/en/about'
     | '/en/contact'
@@ -231,6 +242,7 @@ export interface FileRouteTypes {
     | '/politica-de-privacidad'
     | '/proyectos'
     | '/servicios'
+    | '/sitemap.xml'
     | '/testimonios'
     | '/en/about'
     | '/en/contact'
@@ -252,6 +264,7 @@ export interface RootRouteChildren {
   PoliticaDePrivacidadRoute: typeof PoliticaDePrivacidadRoute
   ProyectosRoute: typeof ProyectosRoute
   ServiciosRoute: typeof ServiciosRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TestimoniosRoute: typeof TestimoniosRoute
   EnAboutRoute: typeof EnAboutRoute
   EnContactRoute: typeof EnContactRoute
@@ -320,6 +333,13 @@ declare module '@tanstack/react-router' {
       path: '/servicios'
       fullPath: '/servicios'
       preLoaderRoute: typeof ServiciosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/testimonios': {
@@ -404,6 +424,7 @@ const rootRouteChildren: RootRouteChildren = {
   PoliticaDePrivacidadRoute: PoliticaDePrivacidadRoute,
   ProyectosRoute: ProyectosRoute,
   ServiciosRoute: ServiciosRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   TestimoniosRoute: TestimoniosRoute,
   EnAboutRoute: EnAboutRoute,
   EnContactRoute: EnContactRoute,
