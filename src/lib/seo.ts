@@ -4,6 +4,9 @@ import { dictionaries, otherLocale, routePaths, type Locale, type PageKey } from
 export const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
+  "@id": "https://reformasorihuelacosta.com/#business",
+  url: "https://reformasorihuelacosta.com/",
+  image: "https://reformasorihuelacosta.com/og-image.jpg",
   name: company.name,
   slogan: company.tagline,
   description:
