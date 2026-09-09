@@ -32,7 +32,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
             ))}
           </div>
           <img
-            src={images.artisan}
+            src={images.aboutTeam}
             alt={
               locale === "es"
                 ? "Operario de DM Reformas montando una estructura en obra"

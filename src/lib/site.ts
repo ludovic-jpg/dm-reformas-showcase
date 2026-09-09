@@ -11,6 +11,7 @@ import beforeBano from "@/assets/before-bano.jpg";
 import beforeCocina from "@/assets/before-cocina.jpg";
 import beforeFachada from "@/assets/before-fachada.jpg";
 import artisanAsset from "@/assets/artisan.asset.json";
+import aboutTeamAsset from "@/assets/nosotros-team.asset.json";
 import officeAsset from "@/assets/office.asset.json";
 import logoAsset from "@/assets/dm-logo.asset.json";
 
@@ -28,6 +29,7 @@ export const images = {
   beforeCocina,
   beforeFachada,
   artisan: artisanAsset.url,
+  aboutTeam: aboutTeamAsset.url,
   office: officeAsset.url,
   logo: logoAsset.url,
 };
