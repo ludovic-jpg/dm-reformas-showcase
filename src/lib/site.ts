@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-reformas.jpg";
+
 import serviceCocina from "@/assets/service-cocina.jpg";
 import serviceBano from "@/assets/service-bano.jpg";
 import serviceFachada from "@/assets/service-fachada.jpg";
