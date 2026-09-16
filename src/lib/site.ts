@@ -59,7 +59,7 @@ export const company = {
   lng: -0.6822,
   hours: "Mo-Fr 08:00-18:00, Sa 09:00-13:00",
   social: {
-    instagram: "https://www.instagram.com/",
+    instagram: "https://www.instagram.com/dm.reformas.es",
     facebook: "https://www.facebook.com/",
   },
 };
