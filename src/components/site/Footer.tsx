@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Instagram, Facebook } from "lucide-react";
+import { Mail, MapPin, Phone, Instagram } from "lucide-react";
 
 import { LocaleLink } from "@/components/site/LocaleLink";
 import { company, images, serviceAreas } from "@/lib/site";
@@ -33,18 +33,9 @@ export function Footer({ locale }: { locale: Locale }) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="inline-flex size-10 items-center justify-center rounded-md border border-sidebar-border transition-colors hover:bg-sidebar-accent"
+              className="inline-flex size-14 items-center justify-center rounded-lg border border-sidebar-border transition-colors hover:bg-sidebar-accent"
             >
-              <Instagram className="size-4" aria-hidden="true" />
-            </a>
-            <a
-              href={company.social.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook"
-              className="inline-flex size-10 items-center justify-center rounded-md border border-sidebar-border transition-colors hover:bg-sidebar-accent"
-            >
-              <Facebook className="size-4" aria-hidden="true" />
+              <Instagram className="size-7" aria-hidden="true" />
             </a>
           </div>
         </div>
