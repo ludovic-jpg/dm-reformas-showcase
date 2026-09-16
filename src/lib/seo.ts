@@ -39,7 +39,7 @@ export const localBusinessJsonLd = {
   ],
   priceRange: "€€",
   knowsLanguage: ["es", "en"],
-  sameAs: [company.social.instagram, company.social.facebook],
+  sameAs: [company.social.instagram],
 };
 
 export const SITE_URL = "https://reformasorihuelacosta.com";
