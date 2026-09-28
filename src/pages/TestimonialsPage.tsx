@@ -1,5 +1,6 @@
 import { Quote, Star } from "lucide-react";
 
+import { GoogleIcon } from "@/components/site/GoogleIcon";
 import { SiteLayout, PageHero, CtaBanner } from "@/components/site/SiteLayout";
 import { company, images, testimonials } from "@/lib/site";
 import { contactPathWithType, dictionaries, type Locale } from "@/lib/i18n";
@@ -38,6 +39,16 @@ export function TestimonialsPage({ locale }: { locale: Locale }) {
               </span>{" "}
               {t.testimonials.reviewsLabel}
             </p>
+            <a
+              href={company.social.google}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t.common.googleReviewsAria}
+              className="ml-auto inline-flex items-center gap-2 rounded-lg border border-border bg-background px-4 py-2 text-sm font-semibold transition-colors hover:bg-accent/10"
+            >
+              <GoogleIcon className="size-5" />
+              {t.common.googleReviews}
+            </a>
           </div>
 
           <div className="mt-10 grid gap-5 md:grid-cols-2">

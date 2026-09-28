@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone, Instagram } from "lucide-react";
 
+import { GoogleIcon } from "@/components/site/GoogleIcon";
 import { LocaleLink } from "@/components/site/LocaleLink";
 import { company, images, serviceAreas } from "@/lib/site";
 import { dictionaries, path, type Locale } from "@/lib/i18n";
@@ -36,6 +37,15 @@ export function Footer({ locale }: { locale: Locale }) {
               className="inline-flex size-14 items-center justify-center rounded-lg border border-sidebar-border transition-colors hover:bg-sidebar-accent"
             >
               <Instagram className="size-7" aria-hidden="true" />
+            </a>
+            <a
+              href={company.social.google}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t.common.googleReviewsAria}
+              className="inline-flex size-14 items-center justify-center rounded-lg border border-sidebar-border transition-colors hover:bg-sidebar-accent"
+            >
+              <GoogleIcon className="size-7" />
             </a>
           </div>
         </div>

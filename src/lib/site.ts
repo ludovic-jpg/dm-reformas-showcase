@@ -61,6 +61,8 @@ export const company = {
   social: {
     instagram: "https://www.instagram.com/dm.reformas.es",
     facebook: "https://www.facebook.com/",
+    google:
+      "https://www.google.com/search?hl=es&q=opiniones+de+dm+reformas&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r4wl5Ro7nV7upTFdVip_LEfERdH5Uz1pJxcP0Kyxi9hd9gQ7Zpn5OBA4t-h4WtpBBpKSsDd_RdiJHdJfwP3XF0dJrLjD5Fvs4Hq-DBoVtaeXS9RFQrzPTaiTp_YNZsZfLdySHBjGP4c_SppiAQ0QjdwbXVoRUdugSav_eQLa2kepd0bIw8hRRa6QD6Ds2muN_nIIsGHy4RoHFYitPmEyVBZyZ02r9_RC_w-LR7BwZG_DlRztTf1Sd6oFdgQSC2FzYJ_Usd31JF4qy4FhU5Wc7Lp6tec25-D8L-OdsYOLM2fJuDysk",
   },
 };
 

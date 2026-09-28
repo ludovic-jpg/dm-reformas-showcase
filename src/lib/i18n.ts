@@ -70,6 +70,8 @@ export type Dictionary = {
     menu: string;
     close: string;
     serviceArea: string;
+    googleReviews: string;
+    googleReviewsAria: string;
   };
   home: {
     heroKicker: string;
@@ -219,6 +221,8 @@ export const dictionaries: Record<Locale, Dictionary> = {
       menu: "Menú",
       close: "Cerrar",
       serviceArea: "Zona de intervención",
+      googleReviews: "Ver opiniones en Google",
+      googleReviewsAria: "Ver las opiniones de DM Reformas en Google (se abre en una pestaña nueva)",
     },
     home: {
       heroKicker: "Reformas en Torrevieja y Costa Blanca",
@@ -675,6 +679,8 @@ export const dictionaries: Record<Locale, Dictionary> = {
       menu: "Menu",
       close: "Close",
       serviceArea: "Service area",
+      googleReviews: "See our Google reviews",
+      googleReviewsAria: "See DM Reformas reviews on Google (opens in a new tab)",
     },
     home: {
       heroKicker: "Renovations in Torrevieja and the Costa Blanca",
