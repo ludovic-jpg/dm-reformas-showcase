@@ -18,6 +18,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { LocaleLink } from "@/components/site/LocaleLink";
+import { GoogleIcon } from "@/components/site/GoogleIcon";
 import { SiteLayout, CtaBanner } from "@/components/site/SiteLayout";
 import { BeforeAfter } from "@/components/site/BeforeAfter";
 import { company, images, projects, serviceAreas, services, testimonials } from "@/lib/site";
@@ -245,6 +246,17 @@ export function HomePage({ locale }: { locale: Locale }) {
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Button asChild variant="outline">
               <LocaleLink to={path(locale, "testimonials")}>{t.nav.testimonials}</LocaleLink>
+            </Button>
+            <Button asChild variant="outline">
+              <a
+                href={company.social.google}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t.common.googleReviewsAria}
+              >
+                <GoogleIcon className="size-4" />
+                {t.common.googleReviews}
+              </a>
             </Button>
             <p className="flex items-center gap-2 text-sm text-muted-foreground">
               <ShieldCheck className="size-4 text-accent" aria-hidden="true" />
