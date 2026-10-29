@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Extra languages (de, no, sv, pt, ru) live in src/lib/translations/*.json (dictionary + content); ES/EN stay in i18n.ts/site.ts. Why: keeps the big hand-written ES/EN source readable while other languages are generated from EN.
