@@ -1195,3 +1195,36 @@ export const dictionaries: Record<Locale, Dictionary> = {
 };
 
 export const useDict = (locale: Locale) => dictionaries[locale];
+
+type ExtraTextKey = keyof (typeof noT)["extra"];
+
+const extraTextBase: Record<"es" | "en", Record<ExtraTextKey, string>> = {
+  es: {
+    homeHeroAlt: "Profesional de DM Reformas trabajando en una reforma en Torrevieja",
+    homeAboutAlt: "Profesional de DM Reformas trabajando en una obra en Torrevieja",
+    servicesHeroAlt: "Operarios de DM Reformas rehabilitando una fachada en la Costa Blanca",
+    projectsHeroAlt: "Terraza con pérgola reformada por DM Reformas",
+    testimonialsHeroAlt: "Cocina reformada por DM Reformas para un cliente en Orihuela Costa",
+    contactHeroAlt: "Baño reformado por DM Reformas en Torrevieja",
+    aboutHeroAlt: "Equipo técnico de DM Reformas revisando planos de un proyecto",
+    aboutSecondAlt: "Operario de DM Reformas montando una estructura en obra",
+    whatsappShort: "Hola DM Reformas, me gustaría pedir un presupuesto.",
+    whatsappLong: "Hola DM Reformas, me gustaría pedir un presupuesto para mi reforma.",
+  },
+  en: {
+    homeHeroAlt: "DM Reformas professional working on a renovation in Torrevieja",
+    homeAboutAlt: "DM Reformas professional working on a site in Torrevieja",
+    servicesHeroAlt: "DM Reformas workers restoring a facade on the Costa Blanca",
+    projectsHeroAlt: "Terrace with pergola renovated by DM Reformas",
+    testimonialsHeroAlt: "Kitchen renovated by DM Reformas for a client in Orihuela Costa",
+    contactHeroAlt: "Bathroom renovated by DM Reformas in Torrevieja",
+    aboutHeroAlt: "DM Reformas technical team reviewing project drawings",
+    aboutSecondAlt: "DM Reformas worker assembling a structure on site",
+    whatsappShort: "Hello DM Reformas, I would like to request a quote.",
+    whatsappLong: "Hello DM Reformas, I would like to request a quote for my renovation.",
+  },
+};
+
+/** Short page-level texts (image alts, WhatsApp messages) per language. */
+export const extraText = (locale: Locale, key: ExtraTextKey): string =>
+  locale === "es" || locale === "en" ? extraTextBase[locale][key] : extraTranslations[locale].extra[key];

@@ -2,7 +2,7 @@ import { ShieldCheck, MapPin } from "lucide-react";
 
 import { SiteLayout, PageHero, CtaBanner } from "@/components/site/SiteLayout";
 import { company, images, serviceAreas } from "@/lib/site";
-import { contactPathWithType, dictionaries, type Locale } from "@/lib/i18n";
+import { contactPathWithType, dictionaries, type Locale, extraText } from "@/lib/i18n";
 
 export function AboutPage({ locale }: { locale: Locale }) {
   const t = dictionaries[locale];
@@ -15,9 +15,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
         text={t.about.heroText}
         image={images.office}
         alt={
-          locale === "es"
-            ? "Equipo técnico de DM Reformas revisando planos de un proyecto"
-            : "DM Reformas technical team reviewing project drawings"
+          extraText(locale, "aboutHeroAlt")
         }
       />
 
@@ -34,9 +32,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
           <img
             src={images.aboutTeam}
             alt={
-              locale === "es"
-                ? "Operario de DM Reformas montando una estructura en obra"
-                : "DM Reformas worker assembling a structure on site"
+              extraText(locale, "aboutSecondAlt")
             }
             width={1139}
             height={928}

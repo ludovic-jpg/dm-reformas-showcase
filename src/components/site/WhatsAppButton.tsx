@@ -1,14 +1,12 @@
 import { MessageCircle } from "lucide-react";
 
 import { company } from "@/lib/site";
-import { dictionaries, type Locale } from "@/lib/i18n";
+import { dictionaries, type Locale, extraText } from "@/lib/i18n";
 
 export function WhatsAppButton({ locale }: { locale: Locale }) {
   const t = dictionaries[locale];
   const text =
-    locale === "es"
-      ? "Hola DM Reformas, me gustaría pedir un presupuesto para mi reforma."
-      : "Hello DM Reformas, I would like to request a quote for my renovation.";
+    extraText(locale, "whatsappLong");
 
   return (
     <a

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { LocaleLink } from "@/components/site/LocaleLink";
 import { SiteLayout, PageHero, CtaBanner } from "@/components/site/SiteLayout";
 import { company, images, services } from "@/lib/site";
-import { contactPathWithType, dictionaries, type Locale } from "@/lib/i18n";
+import { contactPathWithType, dictionaries, type Locale, extraText } from "@/lib/i18n";
 
 export function ServicesPage({ locale }: { locale: Locale }) {
   const t = dictionaries[locale];
@@ -17,9 +17,7 @@ export function ServicesPage({ locale }: { locale: Locale }) {
         text={t.services.heroText}
         image={images.fachada}
         alt={
-          locale === "es"
-            ? "Operarios de DM Reformas rehabilitando una fachada en la Costa Blanca"
-            : "DM Reformas workers restoring a facade on the Costa Blanca"
+          extraText(locale, "servicesHeroAlt")
         }
       />
 
