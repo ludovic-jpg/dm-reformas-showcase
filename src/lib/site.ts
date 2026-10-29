@@ -1,3 +1,4 @@
+import { extraTranslations, type Locale } from "@/lib/i18n";
 
 import serviceCocina from "@/assets/service-cocina.jpg";
 import serviceBano from "@/assets/service-bano.jpg";
@@ -79,6 +80,45 @@ export const serviceAreas = [
   "Los Montesinos",
 ];
 
+
+type Partial2<T> = { [K in keyof T]: T[K] extends Record<Locale, string> ? { es: string; en: string } : T[K] };
+const extraLocales = Object.keys(extraTranslations) as (keyof typeof extraTranslations)[];
+
+function withTranslationsServices(items: Partial2<ServiceItem>[]): ServiceItem[] {
+  return items.map((item) => {
+    const alt = { ...item.alt } as Record<Locale, string>;
+    for (const l of extraLocales) {
+      alt[l] = (extraTranslations[l].services as Record<string, string>)[item.id] ?? item.alt.en;
+    }
+    return { ...item, alt };
+  });
+}
+
+function withTranslationsProjects(items: Partial2<ProjectItem>[]): ProjectItem[] {
+  return items.map((item) => {
+    const out = { ...item, title: { ...item.title }, description: { ...item.description }, alt: { ...item.alt } } as ProjectItem;
+    for (const l of extraLocales) {
+      const tr = (extraTranslations[l].projects as Record<string, { title: string; description: string; alt: string }>)[item.id];
+      out.title[l] = tr?.title ?? item.title.en;
+      out.description[l] = tr?.description ?? item.description.en;
+      out.alt[l] = tr?.alt ?? item.alt.en;
+    }
+    return out;
+  });
+}
+
+function withTranslationsTestimonials(items: Partial2<Testimonial>[]): Testimonial[] {
+  return items.map((item) => {
+    const out = { ...item, type: { ...item.type }, text: { ...item.text } } as Testimonial;
+    for (const l of extraLocales) {
+      const tr = (extraTranslations[l].testimonials as Record<string, { type: string; text: string }>)[item.id];
+      out.type[l] = tr?.type ?? item.type.en;
+      out.text[l] = tr?.text ?? item.text.en;
+    }
+    return out;
+  });
+}
+
 /** Reform types shared by the services page and the dynamic contact form. */
 export const reformTypes = [
   "integral",
@@ -100,10 +140,10 @@ export type ServiceItem = {
   id: ReformType;
   icon: string;
   image: string;
-  alt: { es: string; en: string };
+  alt: Record<Locale, string>;
 };
 
-export const services: ServiceItem[] = [
+export const services: ServiceItem[] = withTranslationsServices([
   {
     id: "integral",
     icon: "Home",
@@ -194,7 +234,7 @@ export const services: ServiceItem[] = [
       en: "Renovated commercial unit ready to open",
     },
   },
-];
+]);
 
 export type ProjectItem = {
   id: string;
@@ -203,12 +243,12 @@ export type ProjectItem = {
   before: string;
   after: string;
   duration: string;
-  title: { es: string; en: string };
-  description: { es: string; en: string };
-  alt: { es: string; en: string };
+  title: Record<Locale, string>;
+  description: Record<Locale, string>;
+  alt: Record<Locale, string>;
 };
 
-export const projects: ProjectItem[] = [
+export const projects: ProjectItem[] = withTranslationsProjects([
   {
     id: "piso-torrevieja",
     category: "integral",
@@ -349,18 +389,18 @@ export const projects: ProjectItem[] = [
       en: "Extended terrace with pergola in Los Balcones",
     },
   },
-];
+]);
 
 export type Testimonial = {
   id: string;
   name: string;
   city: string;
   rating: number;
-  type: { es: string; en: string };
-  text: { es: string; en: string };
+  type: Record<Locale, string>;
+  text: Record<Locale, string>;
 };
 
-export const testimonials: Testimonial[] = [
+export const testimonials: Testimonial[] = withTranslationsTestimonials([
   {
     id: "t1",
     name: "Ana Martínez",
@@ -427,4 +467,4 @@ export const testimonials: Testimonial[] = [
       en: "We opened the shop on the planned date. They handled the licence, the air conditioning and the electrical certificate.",
     },
   },
-];
+]);
