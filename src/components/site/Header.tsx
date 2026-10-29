@@ -1,12 +1,26 @@
 import { useEffect, useState } from "react";
-import { Menu, Phone, X } from "lucide-react";
+import { ChevronDown, Menu, Phone, X } from "lucide-react";
 import { useRouterState } from "@tanstack/react-router";
 
 import { Button } from "@/components/ui/button";
 import { LocaleLink } from "@/components/site/LocaleLink";
 import { FlagIcon } from "@/components/site/FlagIcon";
 import { company, images } from "@/lib/site";
-import { dictionaries, otherLocale, path, routePaths, type Locale, type PageKey } from "@/lib/i18n";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  dictionaries,
+  localeNames,
+  locales,
+  path,
+  routePaths,
+  type Locale,
+  type PageKey,
+} from "@/lib/i18n";
 
 const navKeys: Exclude<PageKey, "legal" | "privacy" | "cookies">[] = [
   "home",
@@ -32,8 +46,6 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const alt = otherLocale(locale);
-  const altHref = routePaths[alt][page];
 
   return (
     <header
@@ -71,15 +83,7 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
-          <LocaleLink
-            to={altHref}
-            className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-2 text-xs font-semibold uppercase tracking-wide transition-colors hover:bg-muted"
-            aria-label={`${t.common.languageLabel}: ${t.common.switchTo}`}
-            hrefLang={alt}
-          >
-            <FlagIcon locale={alt} className="size-5 rounded-sm" />
-            {alt.toUpperCase()}
-          </LocaleLink>
+          <LanguageMenu locale={locale} page={page} label={t.common.languageLabel} />
           <Button asChild variant="outline" size="sm">
             <a href={`tel:${company.phoneHref}`}>
               <Phone className="size-4" aria-hidden="true" />
@@ -117,14 +121,25 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
               </LocaleLink>
             ))}
             <div className="mt-3 flex flex-col gap-2 border-t border-border pt-3">
-              <LocaleLink
-                to={altHref}
-                hrefLang={alt}
-                className="inline-flex items-center gap-2 rounded-md px-2 py-3 text-sm font-semibold"
-              >
-                <FlagIcon locale={alt} className="size-5 rounded-sm" />
-                {t.common.switchTo}
-              </LocaleLink>
+              <p className="px-2 pt-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                {t.common.languageLabel}
+              </p>
+              <div className="grid grid-cols-2 gap-1">
+                {locales.map((l) => (
+                  <LocaleLink
+                    key={l}
+                    to={routePaths[l][page]}
+                    hrefLang={dictionaries[l].htmlLang}
+                    aria-current={l === locale ? "true" : undefined}
+                    className={`inline-flex items-center gap-2 rounded-md px-2 py-2.5 text-sm font-medium ${
+                      l === locale ? "bg-muted text-accent" : ""
+                    }`}
+                  >
+                    <FlagIcon locale={l} className="h-4 w-6 rounded-sm" />
+                    {localeNames[l]}
+                  </LocaleLink>
+                ))}
+              </div>
               <Button asChild variant="outline">
                 <a href={`tel:${company.phoneHref}`}>
                   <Phone className="size-4" aria-hidden="true" />
@@ -139,5 +154,34 @@ export function Header({ locale, page }: { locale: Locale; page: PageKey }) {
         </div>
       )}
     </header>
+  );
+}
+
+function LanguageMenu({ locale, page, label }: { locale: Locale; page: PageKey; label: string }) {
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger
+        className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-2 text-xs font-semibold uppercase tracking-wide transition-colors hover:bg-muted"
+        aria-label={`${label}: ${localeNames[locale]}`}
+      >
+        <FlagIcon locale={locale} className="h-4 w-6 rounded-sm" />
+        {locale.toUpperCase()}
+        <ChevronDown className="size-3.5" aria-hidden="true" />
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" className="z-[70] min-w-44">
+        {locales.map((l) => (
+          <DropdownMenuItem key={l} asChild>
+            <LocaleLink
+              to={routePaths[l][page]}
+              hrefLang={dictionaries[l].htmlLang}
+              className={`flex items-center gap-2 ${l === locale ? "font-semibold text-accent" : ""}`}
+            >
+              <FlagIcon locale={l} className="h-4 w-6 rounded-sm" />
+              {localeNames[l]}
+            </LocaleLink>
+          </DropdownMenuItem>
+        ))}
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
