@@ -1,0 +1,586 @@
+{
+ "dict": {
+  "htmlLang": "nb",
+  "nav": {
+   "home": "Hjem",
+   "services": "Tjenester",
+   "projects": "Prosjekter",
+   "about": "Om oss",
+   "testimonials": "Kundeomtaler",
+   "contact": "Kontakt"
+  },
+  "common": {
+   "quoteCta": "Få et uforpliktende tilbud",
+   "quoteCtaShort": "Få et tilbud",
+   "callUs": "Ring oss",
+   "whatsapp": "WhatsApp",
+   "whatsappAria": "Send oss en melding på WhatsApp",
+   "seeAll": "Se alle prosjekter",
+   "seeMore": "Se tjeneste",
+   "before": "Før",
+   "after": "Etter",
+   "dragHint": "Dra for å sammenligne",
+   "duration": "Varighet",
+   "location": "Sted",
+   "languageLabel": "Språk",
+   "switchTo": "Español",
+   "menu": "Meny",
+   "close": "Lukk",
+   "serviceArea": "Dekningsområde",
+   "googleReviews": "Se våre Google-anmeldelser",
+   "googleReviewsAria": "Se DM Reformas-anmeldelser på Google (åpnes i ny fane)"
+  },
+  "home": {
+   "heroKicker": "Renovering i Torrevieja og Costa Blanca",
+   "heroTitle": "Totalrenovering av bolig med førsteklasses finish",
+   "heroText": "DM Reformas renoverer leiligheter, villaer og næringslokaler i Torrevieja og omegn. Detaljerte pristilbud, skriftlige frister og én fast kontaktperson fra start til slutt.",
+   "heroSecondary": "Se våre prosjekter",
+   "stats": [
+    {
+     "value": "15+",
+     "label": "år på byggeplassen"
+    },
+    {
+     "value": "400+",
+     "label": "fullførte prosjekter"
+    },
+    {
+     "value": "100%",
+     "label": "uforpliktende pristilbud"
+    },
+    {
+     "value": "48 t",
+     "label": "gjennomsnittlig svartid på henvendelser"
+    }
+   ],
+   "aboutKicker": "Hvem vi er",
+   "aboutTitle": "Et lokalt team som står inne for arbeidet sitt",
+   "aboutText": [
+    "Vi er et oppussings- og byggeselskap med base i Torrevieja. Vi har egne fagfolk innen muring, elektro, rørlegging og snekkerarbeid, noe som gir oss full kontroll over fremdrift og kvalitet i hvert ledd.",
+    "Vi hjelper både fastboende eiere og internasjonale kunder som renoverer fra utlandet: fotorapporter, kommunikasjon på spansk og engelsk, samt en byggeplass som alltid holdes ryddig."
+   ],
+   "servicesKicker": "Tjenester",
+   "servicesTitle": "Alle typer oppussing, én enkelt kontaktperson",
+   "servicesText": "Fra totalrenovering til nytt bad: vi håndterer tillatelser, materialer, håndverkere og sluttrengjøring.",
+   "areaKicker": "Hvor vi jobber",
+   "areaTitle": "Torrevieja og sørlige Costa Blanca",
+   "areaText": "Vi reiser kostnadsfritt på befaring for å vurdere ditt prosjekt innenfor en radius på 40 km fra Torrevieja.",
+   "projectsKicker": "Prosjekter",
+   "projectsTitle": "Før og etter fra virkelige oppdrag",
+   "projectsText": "Et utvalg av oppussingsprosjekter levert av vårt team i Alicante-provinsen.",
+   "testimonialsKicker": "Omtaler",
+   "testimonialsTitle": "Hva kundene våre sier",
+   "ctaTitle": "Har De et prosjekt i tankene?",
+   "ctaText": "Fortell oss hva De ønsker å renovere, så mottar De et detaljert og uforpliktende tilbud innen 48 arbeidstimer."
+  },
+  "services": {
+   "heroTitle": "Oppussings- og byggetjenester",
+   "heroText": "Vi utfører nybygg og oppussing i alle størrelser med materialer av høyeste kvalitet og skriftlig garanti.",
+   "ctaLabel": "Be om et tilbud på denne tjenesten",
+   "items": {
+    "integral": {
+     "title": "Totalrenovering",
+     "description": "Komplett oppussing av boligen: planløsning, installasjoner, gulv, snekkerarbeid og overflater samlet under én kontrakt.",
+     "bullets": [
+      "Prosjektering og tillatelser",
+      "Helt nye installasjoner",
+      "Skriftlig garantert ferdigstillelse"
+     ]
+    },
+    "cocina": {
+     "title": "Kjøkkenrenovering",
+     "description": "Funksjonelle og slitesterke kjøkken: skreddersydd innredning, benkeplater i kvarts eller porselen og integrerte hvitevarer.",
+     "bullets": [
+      "3D-design i forkant",
+      "Rørlegger- og elektroarbeid",
+      "Montert på 3 uker"
+     ]
+    },
+    "bano": {
+     "title": "Baderomsrenovering",
+     "description": "Vi bytter ut badekaret med dusjnisje og fornyer fliser, sanitærutstyr og belysning på under to uker.",
+     "bullets": [
+      "Skreddersydd walk-in-dusj",
+      "Garantert vanntetting",
+      "Raskt og ryddig arbeid"
+     ]
+    },
+    "fachada": {
+     "title": "Fasader og rehabilitering",
+     "description": "Sprekkutbedring, pussing, utvendig SATE-isolering, fuktsikring og saltbestandig maling.",
+     "bullets": [
+      "Godkjente stillaser",
+      "Fuktbehandling",
+      "Bedre energieffektivitet"
+     ]
+    },
+    "tejado": {
+     "title": "Tak og tekking",
+     "description": "Reparasjon og fornyelse av flate og skrå tak, takstein, isolasjon og takrenner.",
+     "bullets": [
+      "Lekkasjediagnose",
+      "Vanntetting",
+      "10 års garanti"
+     ]
+    },
+    "piscina": {
+     "title": "Basseng og utemiljø",
+     "description": "Bygging og renovering av svømmebasseng, sklisikre kantfliser, renseanlegg og LED-belysning.",
+     "bullets": [
+      "Liner og mosaikkfliser",
+      "Soldekk i porselensfliser",
+      "Igangkjøring inkludert"
+     ]
+    },
+    "extension": {
+     "title": "Tilbygg, terrasser og pergolaer",
+     "description": "Utvidelse av bolig, innglassing, terrassegulv og bioklimatiske pergolaer med godkjent prosjektering.",
+     "bullets": [
+      "Teknisk prosjekt",
+      "Struktur i aluminium eller murverk",
+      "Vi ordner kommunale tillatelser"
+     ]
+    },
+    "pintura": {
+     "title": "Maling og veggoverflater",
+     "description": "Innvendig og utvendig malerarbeid, helsparkling, mikrosement, tapetsering og fukthemmende behandlinger.",
+     "bullets": [
+      "Full tildekking av møbler",
+      "Vaskbare malinger",
+      "Plettfri finish"
+     ]
+    },
+    "instalaciones": {
+     "title": "Elektro og rørlegging",
+     "description": "Nyanlegg og oppgradering av sikringsskap, røropplegg, klimaanlegg og varmtvannssystemer.",
+     "bullets": [
+      "Samsvarserklæring elektro",
+      "Lekkasjesøk",
+      "Luft-til-vann-varmepumpe og A/C"
+     ]
+    },
+    "local": {
+     "title": "Næringslokaler",
+     "description": "Komplett innredning av butikker og kontorer: planløsning, inneklima, belysning, fasadeparti og sertifikater.",
+     "bullets": [
+      "Korte leveringstider",
+      "Brukstillatelse og lisenser",
+      "Arbeid utenom åpningstid"
+     ]
+    },
+    "otro": {
+     "title": "Øvrige arbeider",
+     "description": "Snekkerarbeid, flislegging, dusjvegger, innglassing, småreparasjoner og vedlikehold for sameier.",
+     "bullets": [
+      "Spesifisert tilbud",
+      "Egne håndverkere",
+      "Rask responstid"
+     ]
+    }
+   }
+  },
+  "projects": {
+   "heroTitle": "Fullførte prosjekter",
+   "heroText": "Filtrer etter type arbeid og dra i bildene for å se før- og etterresultatene av våre renoveringer.",
+   "filterAll": "Alle",
+   "filters": {
+    "integral": "Totalrenovering",
+    "cocina": "Kjøkken",
+    "bano": "Bad",
+    "fachada": "Fasader",
+    "piscina": "Basseng",
+    "extension": "Terrasser og tilbygg",
+    "local": "Næringslokaler"
+   }
+  },
+  "about": {
+   "heroTitle": "Om DM Reformas",
+   "heroText": "Innovamos en tu proyecto: moderne byggeløsninger, nøyaktig utførelse og direkte kontakt med byggelederen.",
+   "storyTitle": "Vår historie",
+   "story": [
+    "DM Reformas ble grunnlagt i Torrevieja av fagfolk med over femten års erfaring fra byggeplasser på Costa Blanca. Vi startet med oppussing av bad og kjøkken for naboer i sentrum, og i dag leverer vi totalrenoveringer, fasaderehabiliteringer og næringsbyggprosjekter i hele Vega Baja-regionen.",
+    "Vår arbeidsmetode er uendret: vi besiktiger eiendommen, tar nøyaktige mål, presenterer mulighetene med reelle priser, og starter først når kunden vet nøyaktig hva som skal gjøres, hva det koster og når det ferdigstilles."
+   ],
+   "valuesTitle": "Våre verdier",
+   "values": [
+    {
+     "title": "Åpenhet",
+     "text": "Spesifiserte pristilbud uten ubehagelige overraskelser. Enhver endring godkjennes skriftlig før den utføres."
+    },
+    {
+     "title": "Overholdte frister",
+     "text": "Vi planlegger arbeidet med faste datoer for hver fase og oppdaterer Dem ukentlig om reell fremdrift."
+    },
+    {
+     "title": "Kvalitetsmaterialer",
+     "text": "Vi samarbeider med pålitelige lokale leverandører og merker med solide lokale garantier."
+    },
+    {
+     "title": "Tett oppfølging",
+     "text": "Én fast byggeleder, tilgjengelig på telefon og WhatsApp, på spansk og engelsk."
+    }
+   ],
+   "methodTitle": "Slik jobber vi",
+   "method": [
+    {
+     "step": "01",
+     "title": "Befaring og oppmåling",
+     "text": "Vi kommer kostnadsfritt på befaring i Deres bolig eller lokale, lytter til Deres ønsker og tar mål og bilder."
+    },
+    {
+     "step": "02",
+     "title": "Detaljert tilbud",
+     "text": "Innen 48 arbeidstimer mottar De et spesifisert pristilbud med materialer, tidsfrister og betalingsplan."
+    },
+    {
+     "step": "03",
+     "title": "Planlegging og tillatelser",
+     "text": "Vi koordinerer håndverkere og materialer, samt eventuelle kommunale søknader og tekniske prosjekter."
+    },
+    {
+     "step": "04",
+     "title": "Gjennomføring med oppfølging",
+     "text": "Ryddig byggeplass, daglig beskyttelse av boligen og ukentlige rapporter med fremdriftsbilder."
+    },
+    {
+     "step": "05",
+     "title": "Overlevering og garanti",
+     "text": "Felles sluttbefaring, grundig rengjøring, installasjonssertifikater og skriftlig garanti."
+    }
+   ],
+   "guaranteesTitle": "Garantier og forsikring",
+   "guarantees": [
+    "Registrert selskap der alle ansatte er innmeldt i spansk trygdeordning (Seguridad Social).",
+    "Gjeldende ansvarsforsikring for bygge- og oppussingsarbeider.",
+    "Skriftlig 2 års garanti på overflater og inntil 10 år på tetting og bærende konstruksjoner.",
+    "Samsvarserklæringer for elektro og VVS utstedt av autoriserte installatører.",
+    "Helse-, miljø- og sikkerhetsplan (HMS) følges på alle byggeplasser."
+   ]
+  },
+  "testimonials": {
+   "heroTitle": "Kundeomtaler",
+   "heroText": "Ekte anmeldelser fra boligeiere i Torrevieja og omegn som har valgt DM Reformas.",
+   "averageLabel": "Gjennomsnittlig vurdering",
+   "reviewsLabel": "verifiserte anmeldelser"
+  },
+  "contact": {
+   "heroTitle": "Kontakt og uforpliktende tilbud",
+   "heroText": "Fortell oss om Deres prosjekt, så svarer vi med et detaljert pristilbud innen 48 arbeidstimer.",
+   "infoTitle": "Kontaktinformasjon",
+   "hoursTitle": "Åpningstider",
+   "hours": [
+    "Mandag til fredag: 08:00 – 18:00",
+    "Lørdag: 09:00 – 13:00",
+    "Søndag: stengt"
+   ],
+   "mapTitle": "Vårt dekningsområde",
+   "formTitle": "Be om et tilbud",
+   "formText": "Felt merket med * er obligatoriske. Jo mer informasjon De oppgir, desto mer nøyaktig blir tilbudet."
+  },
+  "form": {
+   "name": "Fullt navn *",
+   "phone": "Telefon *",
+   "email": "E-post *",
+   "city": "By / område",
+   "cityPlaceholder": "Torrevieja, Orihuela Costa…",
+   "type": "Type oppussing *",
+   "typePlaceholder": "Velg type oppussing",
+   "message": "Fortell oss om prosjektet *",
+   "messagePlaceholder": "Beskriv eiendommen, hva De ønsker å renovere og ønsket tidsramme…",
+   "photos": "Bilder av prosjektet",
+   "photosHint": "Valgfritt. Opptil 5 bilder (JPG eller PNG, maks 10 MB per bilde).",
+   "surface": "Omtrentlig areal (m²)",
+   "budget": "Omtrentlig budsjett",
+   "budgetOptions": [
+    "Under € 5 000",
+    "€ 5 000 – € 15 000",
+    "€ 15 000 – € 30 000",
+    "€ 30 000 – € 60 000",
+    "Over € 60 000",
+    "Vet ikke ennå"
+   ],
+   "buildingType": "Type bolig/bygg",
+   "buildingOptions": [
+    "Leilighet",
+    "Rekkehus / bungalow",
+    "Frittstående villa",
+    "Bygård eller sameie",
+    "Næringslokale"
+   ],
+   "rooms": "Antall rom som skal renoveres",
+   "urgency": "Når ønsker De å starte?",
+   "urgencyOptions": [
+    "Så snart som mulig",
+    "Om 1 – 3 måneder",
+    "Om mer enn 3 måneder",
+    "Kartlegger bare muligheter"
+   ],
+   "consent": "Jeg har lest og godtar",
+   "consentLink": "personvernerklæringen",
+   "submit": "Send forespørsel",
+   "submitting": "Sender…",
+   "successTitle": "Forespørsel sendt!",
+   "successText": "Takk for at De henvender Dem til DM Reformas. Vi har mottatt Deres forespørsel og svarer innen 48 arbeidstimer.",
+   "newRequest": "Send en ny henvendelse",
+   "errorTitle": "Kunne ikke sende forespørselen",
+   "errorText": "Vennligst prøv igjen om et øyeblikk, eller kontakt oss direkte via WhatsApp eller telefon.",
+   "required": "Dette feltet er obligatorisk",
+   "invalidEmail": "Oppgi en gyldig e-postadresse",
+   "invalidPhone": "Oppgi et gyldig telefonnummer (minst 9 sifre)",
+   "tooShort": "Skriv vennligst minst 10 tegn",
+   "consentRequired": "De må godta personvernerklæringen",
+   "optional": "valgfritt",
+   "uploading": "Laster opp bilder…"
+  },
+  "footer": {
+   "about": "Bygge- og oppussingsfirma i Torrevieja. Totalrenovering, kjøkken, bad, fasader, tak og næringslokaler på sørlige Costa Blanca.",
+   "quickLinks": "Snarveier",
+   "legalLinks": "Juridisk",
+   "contact": "Kontakt",
+   "rights": "Alle rettigheter forbeholdt.",
+   "builtIn": "Torrevieja · Alicante · Spania"
+  },
+  "cookies": {
+   "title": "Ditt personvern",
+   "text": "Vi benytter egne informasjonskapsler som er nødvendige for at nettstedet skal fungere, samt analysekapsler med Deres samtykke for å forbedre innholdet vårt.",
+   "accept": "Godta alle",
+   "reject": "Kun nødvendige",
+   "more": "Les mer"
+  },
+  "legalPages": {
+   "legal": {
+    "title": "Juridisk merknad",
+    "updated": "Sist oppdatert: september 2026",
+    "blocks": [
+     {
+      "heading": "1. Identifikasjonsopplysninger",
+      "body": [
+       "I henhold til artikkel 10 i den spanske loven 34/2002 om informasjonssamfunnstjenester og elektronisk handel (LSSI-CE), opplyses det om at dette nettstedet eies av DM Reformas, med forretningssted i Torrevieja (Alicante, Spania), kontakt-e-post dm.reformasinnovamos@gmail.com.",
+       "Fullstendig selskapsinformasjon (foretaksnavn, organisasjonsnummer og forretningsadresse) vil bli oppdatert i denne erklæringen så snart det foreligger fra eieren."
+      ]
+     },
+     {
+      "heading": "2. Formål og bruksvilkår",
+      "body": [
+       "Formålet med dette nettstedet er å presentere oppussings- og byggetjenestene til DM Reformas, samt gi brukere mulighet til å be om uforpliktende pristilbud.",
+       "Bruk av nettstedet innebærer aksept av disse vilkårene. Brukeren forplikter seg til å benytte nettstedet og skjemaene på lovlig vis, uten å oppgi uriktige opplysninger eller skadelig innhold som kan påvirke eierens eller tredjeparters systemer."
+      ]
+     },
+     {
+      "heading": "3. Immaterielle rettigheter",
+      "body": [
+       "Tekster, fotografier, logoer, varemerker og grafiske elementer på dette nettstedet tilhører DM Reformas eller benyttes med gyldig tillatelse. Enhver reproduksjon, distribusjon eller endring uten uttrykkelig skriftlig forhåndssamtykke er forbudt."
+      ]
+     },
+     {
+      "heading": "4. Ansvarsbegrensning",
+      "body": [
+       "DM Reformas garanterer ikke at nettstedet til enhver tid er uten feil eller avbrudd, selv om rimelige tiltak iverksettes for å forhindre dette. Pristilbud, tidsfrister og priser som oppgis til informasjonsformål utgjør ikke et bindende avtalet创新ilbud før de er formalisert skriftlig."
+      ]
+     },
+     {
+      "heading": "5. Gjeldende lov og verneting",
+      "body": [
+       "Disse vilkårene reguleres av spansk rett. Eventuelle tvister skal behandles av domstolene ved eierens verneting, med mindre annet følger av ufravikelig forbrukerlovgivning."
+      ]
+     }
+    ]
+   },
+   "privacy": {
+    "title": "Personvernerklæring",
+    "updated": "Sist oppdatert: september 2026",
+    "blocks": [
+     {
+      "heading": "1. Behandlingsansvarlig",
+      "body": [
+       "Behandlingsansvarlig: DM Reformas (Torrevieja, Alicante, Spania). Kontakt-e-post: dm.reformasinnovamos@gmail.com."
+      ]
+     },
+     {
+      "heading": "2. Formål og behandlingsgrunnlag",
+      "body": [
+       "Vi behandler opplysningene De oppgir i kontaktskjemaet (navn, telefon, e-post, bosted, type oppussing, prosjektbeskrivelse og eventuelle vedlagte bilder) for å besvare Deres henvendelse, utarbeide et pristilbud og opprettholde dialogen som følger av henvendelsen.",
+       "Behandlingsgrunnlaget er Deres uttrykkelige samtykke ved innsending av skjemaet (art. 6.1.a GDPR) samt vår berettigede interesse i å håndtere tilbudsforespørsler og administrere tiltak forut for en eventuell avtaleinngåelse (art. 6.1.b GDPR)."
+      ]
+     },
+     {
+      "heading": "3. Lagringstid",
+      "body": [
+       "Vi oppbevarer personopplysningene så lenge det er nødvendig for å behandle Deres henvendelse, og deretter i henhold til lovpålagte foreldelsesfrister for skatte- og avtalerettslige forpliktelser. Dersom det ikke inngås avtale, slettes opplysningene innen maksimalt to år etter siste kontakt."
+      ]
+     },
+     {
+      "heading": "4. Mottakere og databehandlere",
+      "body": [
+       "Opplysningene lagres på servere hos våre leverandører av webhotell, databaser og e-posttjenester, som fungerer som databehandlere i henhold til avtale i tråd med artikkel 28 i GDPR. Vi selger aldri personopplysninger til tredjeparter, og vi foretar ingen dataoverføringer utenfor EØS uten nødvendige garantier."
+      ]
+     },
+     {
+      "heading": "5. Deres rettigheter",
+      "body": [
+       "De kan utøve Deres rett til innsyn, retting, sletting, innsigelse, begrensning av behandlingen og dataportabilitet ved å sende en skriftlig henvendelse til dm.reformasinnovamos@gmail.com, med angivelse av hvilken rett De ønsker å utøve samt kopi av legitimasjon.",
+       "De har også rett til å klage til det spanske datatilsynet (Agencia Española de Protección de Datos, www.aepd.es) dersom De mener at behandlingen er i strid med gjeldende regelverk."
+      ]
+     },
+     {
+      "heading": "6. Sikkerhet",
+      "body": [
+       "Vi anvender hensiktsmessige tekniske og organisatoriske tiltak for å beskytte Deres personopplysninger mot uautorisert tilgang, tap eller endring, herunder kryptering under overføring og adgangskontroll til henvendelsesdatabasen."
+      ]
+     }
+    ]
+   },
+   "cookies": {
+    "title": "Erklæring om informasjonskapsler",
+    "updated": "Sist oppdatert: september 2026",
+    "blocks": [
+     {
+      "heading": "1. Hva er informasjonskapsler",
+      "body": [
+       "En informasjonskapsel (cookie) er en liten tekstfil som lagres i nettleseren Deres når De besøker et nettsted. Den gjør det mulig å huske informasjon om besøket, som for eksempel valgt språk eller personverninnstillinger."
+      ]
+     },
+     {
+      "heading": "2. Hvilke kapsler vi bruker",
+      "body": [
+       "Nødvendige tekniske kapsler: helt avgjørende for at nettstedet skal fungere og for å lagre Deres cookie-valg. Disse krever ikke samtykke.",
+       "Analysekapsler: aktiveres kun dersom De godtar alle informasjonskapsler. De gir oss samlet statistikk over hvilke sider som besøkes mest, slik at vi kan forbedre innholdet vårt.",
+       "Tredjepartskapsler: dersom De benytter det integrerte kartet på kontaktsiden, kan Google plassere egne kapsler. Kartet lastes først inn etter at informasjonskapsler er godtatt eller etter at De interagerer med det."
+      ]
+     },
+     {
+      "heading": "3. Hvordan administrere informasjonskapsler",
+      "body": [
+       "De kan når som helst endre Deres valg ved å tømme nettstedets data i nettleseren Deres, hvorpå samtykkebanneret vil vises på nytt. De kan også blokkere eller slette informasjonskapsler i personverninnstillingene i Chrome, Safari, Firefox eller Edge."
+      ]
+     }
+    ]
+   }
+  },
+  "meta": {
+   "home": {
+    "title": "Renovering i Torrevieja | DM Reformas Costa Blanca",
+    "description": "Totalentreprenør for renovering i Torrevieja: kjøkken, bad, fasader, tak, svømmebasseng og næringslokaler på Costa Blanca. Gratis tilbud innen 48 t."
+   },
+   "services": {
+    "title": "Oppussingstjenester i Torrevieja | DM Reformas",
+    "description": "Totalrenovering, kjøkken, bad, fasader, tak, basseng, maling, elektro og næringsinnredning i Torrevieja og på sørlige Costa Blanca."
+   },
+   "projects": {
+    "title": "Prosjekter og før- og etter-renoveringer | DM Reformas",
+    "description": "Bildegalleri med utførte renoveringer i Torrevieja, Orihuela Costa og Guardamar: leiligheter, kjøkken, bad, fasader og basseng med før- og etterbilder."
+   },
+   "about": {
+    "title": "Om oss | Oppussingsfirma i Torrevieja",
+    "description": "Bli kjent med DM Reformas: over 15 års erfaring med oppussing av boliger og næringslokaler på Costa Blanca, med egne håndverkere og skriftlige garantier."
+   },
+   "testimonials": {
+    "title": "Kundeanmeldelser | DM Reformas Torrevieja",
+    "description": "Verifiserte omtaler fra kunder av DM Reformas i Torrevieja, La Mata, Orihuela Costa, Guardamar og Ciudad Quesada."
+   },
+   "contact": {
+    "title": "Kontakt og gratis pristilbud | DM Reformas Torrevieja",
+    "description": "Be om et uforpliktende tilbud på renovering i Torrevieja. Skjema, telefon, WhatsApp og oversikt over vårt dekningsområde på Costa Blanca."
+   },
+   "legal": {
+    "title": "Juridisk merknad | DM Reformas",
+    "description": "Juridisk informasjon for nettstedet til DM Reformas, oppussingsfirma i Torrevieja, Alicante."
+   },
+   "privacy": {
+    "title": "Personvernerklæring | DM Reformas",
+    "description": "Hvordan vi behandler Deres personopplysninger i henhold til GDPR når De ber om et pristilbud fra DM Reformas."
+   },
+   "cookies": {
+    "title": "Erklæring om informasjonskapsler | DM Reformas",
+    "description": "Informasjon om informasjonskapsler som benyttes på nettstedet til DM Reformas og hvordan De administrerer dem."
+   }
+  }
+ },
+ "extra": {
+  "homeHeroAlt": "Fagperson fra DM Reformas under arbeid på en oppussing i Torrevieja",
+  "homeAboutAlt": "Fagarbeider fra DM Reformas på en byggeplass i Torrevieja",
+  "servicesHeroAlt": "Håndverkere fra DM Reformas som rehabiliterer en fasade på Costa Blanca",
+  "projectsHeroAlt": "Terrasse med pergola renovert av DM Reformas",
+  "testimonialsHeroAlt": "Kjøkken renovert av DM Reformas for en kunde i Orihuela Costa",
+  "contactHeroAlt": "Baderom renovert av DM Reformas i Torrevieja",
+  "aboutHeroAlt": "Teknisk team fra DM Reformas som gjennomgår prosjekttegninger",
+  "aboutSecondAlt": "Håndverker fra DM Reformas som monterer en konstruksjon på byggeplass",
+  "whatsappShort": "Hei DM Reformas, jeg ønsker å be om et pristilbud.",
+  "whatsappLong": "Hei DM Reformas, jeg ønsker å be om et pristilbud på oppussing."
+ },
+ "projects": {
+  "piso-torrevieja": {
+   "title": "Totalrenovering av leilighet på 85 m²",
+   "description": "Fullstendig ny planløsning, nye elektro- og VVS-installasjoner, gjennomgående porselensfliser og åpen stue- og kjøkkenløsning.",
+   "alt": "Før og etter totalrenovering av leilighet i Torrevieja"
+  },
+  "bano-la-mata": {
+   "title": "Komplett baderom med walk-in-dusj",
+   "description": "Badekar erstattet med dusjnisje, storformatfliser, vegghengt baderomsinnredning og indirekte LED-belysning.",
+   "alt": "Før og etter baderomsrenovering i La Mata"
+  },
+  "cocina-orihuela": {
+   "title": "Åpent kjøkken med kjøkkenøy og kvartsbenkeplate",
+   "description": "Skillevegg revet, nye skreddersydde moduler, integrerte hvitevarer og oppgradert ventilasjon.",
+   "alt": "Før og etter kjøkkenrenovering i Orihuela Costa"
+  },
+  "fachada-guardamar": {
+   "title": "Fasaderehabilitering og isolering",
+   "description": "Utbedring av sprekker, pussing, fuktsikring og elastisk maling tilpasset saltholdig kystluft.",
+   "alt": "Før og etter fasaderehabilitering i Guardamar"
+  },
+  "piscina-quesada": {
+   "title": "Renovering av svømmebasseng og solterrasse",
+   "description": "Nytt bassengbelegg, sklisikre porselenskantfliser, LED-lys og fornyet renseanlegg.",
+   "alt": "Renovert svømmebasseng i Ciudad Quesada"
+  },
+  "local-torrevieja": {
+   "title": "Innredning av næringslokale",
+   "description": "Fullstendig innredning med klimaanlegg, skinnebelysning, nytt inngangsparti og installasjonsbevis.",
+   "alt": "Renovert næringslokale i sentrum av Torrevieja"
+  },
+  "terraza-balcones": {
+   "title": "Utvidelse av terrasse med bioklimatisk pergola",
+   "description": "Aluminiumskonstruksjon, vedlikeholdsfritt utegulv, værbestandige stikkontakter og godkjent byggeprosjekt.",
+   "alt": "Utvidet terrasse med pergola i Los Balcones"
+  }
+ },
+ "services": {
+  "integral": "Stue i en totalrenovert bolig i Torrevieja",
+  "cocina": "Moderne renovert kjøkken med antrasittgrå innredning",
+  "bano": "Renovert bad med walk-in-dusj og storformatfliser",
+  "fachada": "Håndverkere som rehabiliterer en bygningsfasade på Costa Blanca",
+  "tejado": "Legging av nye takstein på taket til en villa",
+  "piscina": "Renovert privat svømmebasseng med porselenskantfliser",
+  "extension": "Tekniker fra DM Reformas som gjennomgår tegninger for tilbygg",
+  "pintura": "Fagarbeider fra DM Reformas i sving på byggeplassen",
+  "instalaciones": "Terrasse med aluminiumspergola og utegulv",
+  "local": "Renovert næringslokale klart for åpning"
+ },
+ "testimonials": {
+  "t1": {
+   "type": "Totalrenovering",
+   "text": "De totalrenoverte leiligheten vår til avtalt tid. Tydelig pristilbud, ingen overraskelser og en ryddig byggeplass hver eneste dag. Teamet forklarte alt underveis."
+  },
+  "t2": {
+   "type": "Kjøkken og bad",
+   "text": "Jeg bor vekselvis i England og Spania, og de fulgte opp hele prosjektet eksternt med ukentlige bilder. Alt var ferdig og skinnende rent da jeg ankom."
+  },
+  "t3": {
+   "type": "Fasade og tak",
+   "text": "Vi slet med fuktproblemer i mange år. De fant årsaken, tettet taket og rehabiliterte fasaden. To vintre senere finnes det ikke en eneste flekk."
+  },
+  "t4": {
+   "type": "Basseng og solterrasse",
+   "text": "Veldig profesjonelle og punktlige. Bassenget fremstår som helt nytt, og de ga oss gode råd om hvordan vi kunne redusere renseanleggets strømforbruk."
+  },
+  "t5": {
+   "type": "Baderom",
+   "text": "Plettfritt arbeid utført på 12 dager. Kun en liten forsinkelse med levering av sanitærutstyret, noe de varslet om i god tid."
+  },
+  "t6": {
+   "type": "Næringslokale",
+   "text": "Vi åpnet butikken på planlagt dato. De ordnet med driftstillatelse, klimaanlegg og godkjenning av el-anlegget."
+  }
+ }
+}

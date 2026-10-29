@@ -1,0 +1,586 @@
+{
+ "dict": {
+  "htmlLang": "pt",
+  "nav": {
+   "home": "Início",
+   "services": "Serviços",
+   "projects": "Projetos",
+   "about": "Sobre nós",
+   "testimonials": "Testemunhos",
+   "contact": "Contacto"
+  },
+  "common": {
+   "quoteCta": "Peça o seu orçamento gratuito",
+   "quoteCtaShort": "Pedir orçamento",
+   "callUs": "Ligue-nos",
+   "whatsapp": "WhatsApp",
+   "whatsappAria": "Envie-nos mensagem pelo WhatsApp",
+   "seeAll": "Ver todos os projetos",
+   "seeMore": "Ver serviço",
+   "before": "Antes",
+   "after": "Depois",
+   "dragHint": "Arraste para comparar",
+   "duration": "Duração",
+   "location": "Localização",
+   "languageLabel": "Idioma",
+   "switchTo": "Español",
+   "menu": "Menu",
+   "close": "Fechar",
+   "serviceArea": "Área de atuação",
+   "googleReviews": "Ver avaliações no Google",
+   "googleReviewsAria": "Ver avaliações da DM Reformas no Google (abre num novo separador)"
+  },
+  "home": {
+   "heroKicker": "Remodelações em Torrevieja e na Costa Blanca",
+   "heroTitle": "Remodelações integrais com acabamentos de excelência",
+   "heroText": "A DM Reformas remodela apartamentos, moradias e espaços comerciais em Torrevieja e arredores. Orçamentos detalhados, prazos por escrito e um único interlocutor do início ao fim.",
+   "heroSecondary": "Ver os nossos projetos",
+   "stats": [
+    {
+     "value": "15+",
+     "label": "anos em obra"
+    },
+    {
+     "value": "400+",
+     "label": "projetos concluídos"
+    },
+    {
+     "value": "100%",
+     "label": "orçamentos sem compromisso"
+    },
+    {
+     "value": "48 h",
+     "label": "resposta média ao seu pedido"
+    }
+   ],
+   "aboutKicker": "Quem somos",
+   "aboutTitle": "Uma equipa local que responde pelo seu trabalho",
+   "aboutText": [
+    "Somos uma empresa de construção e remodelações sediada em Torrevieja. Contamos com equipas próprias de alvenaria, eletricidade, canalização e carpintaria, o que nos permite controlar os prazos e a qualidade em cada fase da obra.",
+    "Acompanhamos tanto proprietários residentes como clientes internacionais que remodelam a partir do estrangeiro: relatórios fotográficos, comunicação em espanhol e inglês, e uma obra sempre limpa e organizada."
+   ],
+   "servicesKicker": "Serviços",
+   "servicesTitle": "Qualquer tipo de remodelação, um único contacto",
+   "servicesText": "De uma remodelação integral a uma nova casa de banho: tratamos do licenciamento, materiais, especialidades e da limpeza final.",
+   "areaKicker": "Onde atuamos",
+   "areaTitle": "Torrevieja e o sul da Costa Blanca",
+   "areaText": "Deslocamo-nos gratuitamente para avaliar o seu projeto num raio de 40 km a partir de Torrevieja.",
+   "projectsKicker": "Projetos",
+   "projectsTitle": "O antes e depois de obras reais",
+   "projectsText": "Uma seleção de remodelações concluídas pela nossa equipa em toda a província de Alicante.",
+   "testimonialsKicker": "Avaliações",
+   "testimonialsTitle": "O que dizem os nossos clientes",
+   "ctaTitle": "Tem um projeto em mente?",
+   "ctaText": "Diga-nos o que pretende remodelar e receberá um orçamento detalhado e sem compromisso num prazo de 48 horas úteis."
+  },
+  "services": {
+   "heroTitle": "Serviços de remodelação e construção",
+   "heroText": "Realizamos obras de raiz e remodelações de qualquer dimensão com materiais de primeira qualidade e garantia por escrito.",
+   "ctaLabel": "Pedir orçamento para este serviço",
+   "items": {
+    "integral": {
+     "title": "Remodelações integrais",
+     "description": "Renovação completa da sua habitação: distribuição do espaço, instalações, pavimentos, carpintarias e acabamentos sob um único contrato.",
+     "bullets": [
+      "Projeto e licenciamento",
+      "Instalações totalmente novas",
+      "Prazo garantido por escrito"
+     ]
+    },
+    "cocina": {
+     "title": "Remodelação de cozinhas",
+     "description": "Cozinhas funcionais e duradouras: móveis por medida, bancadas em quartzo ou porcelânico e eletrodomésticos encastrados.",
+     "bullets": [
+      "Projeto em 3D prévio",
+      "Canalização e eletricidade",
+      "Instaladas em 3 semanas"
+     ]
+    },
+    "bano": {
+     "title": "Remodelação de casas de banho",
+     "description": "Substituímos banheiras por bases de duche e renovamos revestimentos, louças sanitárias e iluminação em menos de duas semanas.",
+     "bullets": [
+      "Base de duche por medida",
+      "Impermeabilização garantida",
+      "Obras rápidas e organizadas"
+     ]
+    },
+    "fachada": {
+     "title": "Fachadas e reabilitação",
+     "description": "Reparação de fissuras, reboco monocamada, isolamento térmico exterior (ETICS/SATE), impermeabilização e pintura resistente à maresia.",
+     "bullets": [
+      "Andaimes certificados",
+      "Tratamento anti-humidade",
+      "Melhoria do desempenho energético"
+     ]
+    },
+    "tejado": {
+     "title": "Telhados e coberturas",
+     "description": "Reparação e renovação de coberturas planas e inclinadas, telhas cerâmicas, isolamento e caleiras.",
+     "bullets": [
+      "Diagnóstico de infiltrações",
+      "Impermeabilização",
+      "10 anos de garantia"
+     ]
+    },
+    "piscina": {
+     "title": "Piscinas e áreas exteriores",
+     "description": "Construção e renovação de piscinas, bordaduras antiderrapantes, sistemas de filtragem e iluminação LED.",
+     "bullets": [
+      "Revestimentos e pastilha vítrea",
+      "Deck em porcelânico",
+      "Colocação em funcionamento incluída"
+     ]
+    },
+    "extension": {
+     "title": "Ampliações, terraços e pérgulas",
+     "description": "Ampliações de habitações, marquises envidraçadas, pavimentos de exterior e pérgulas bioclimáticas com projeto aprovado.",
+     "bullets": [
+      "Projeto técnico",
+      "Estrutura em alumínio ou alvenaria",
+      "Gestão de licenças camarárias"
+     ]
+    },
+    "pintura": {
+     "title": "Pintura e acabamentos de paredes",
+     "description": "Pintura de interiores e exteriores, alisamento de paredes, microcimento, papel de parede e tratamentos anti-humidade.",
+     "bullets": [
+      "Proteção total do mobiliário",
+      "Tintas laváveis",
+      "Acabamento impecável"
+     ]
+    },
+    "instalaciones": {
+     "title": "Eletricidade e canalização",
+     "description": "Novas instalações e modernização de quadros elétricos, canalizações, ar condicionado e sistemas de água quente sanitária.",
+     "bullets": [
+      "Certificado elétrico",
+      "Deteção de fugas",
+      "Aerotermia e climatização"
+     ]
+    },
+    "local": {
+     "title": "Espaços comerciais",
+     "description": "Remodelação integral de lojas e escritórios: distribuição, climatização, iluminação, montras e certificações.",
+     "bullets": [
+      "Prazos de entrega reduzidos",
+      "Licença de utilização e atividade",
+      "Trabalhos fora do horário comercial"
+     ]
+    },
+    "otro": {
+     "title": "Outros trabalhos",
+     "description": "Carpintaria, colocação de cerâmica, resguardos de duche, caixilharias, pequenas reparações e manutenção de condomínios.",
+     "bullets": [
+      "Orçamento discriminado",
+      "Equipas próprias",
+      "Resposta rápida"
+     ]
+    }
+   }
+  },
+  "projects": {
+   "heroTitle": "Projetos concluídos",
+   "heroText": "Filtre por tipo de obra e arraste cada imagem para ver o antes e o depois das nossas remodelações.",
+   "filterAll": "Todos",
+   "filters": {
+    "integral": "Remodelações integrais",
+    "cocina": "Cozinhas",
+    "bano": "Casas de banho",
+    "fachada": "Fachadas",
+    "piscina": "Piscinas",
+    "extension": "Terraços e ampliações",
+    "local": "Espaços comerciais"
+   }
+  },
+  "about": {
+   "heroTitle": "Sobre a DM Reformas",
+   "heroText": "Innovamos en tu proyecto: soluções construtivas atuais, execução rigorosa e contacto direto com o encarregado de obra.",
+   "storyTitle": "A nossa história",
+   "story": [
+    "A DM Reformas nasceu em Torrevieja pelas mãos de profissionais com mais de quinze anos de experiência em obra na Costa Blanca. Começámos por remodelar casas de banho e cozinhas para vizinhos do centro da cidade e hoje realizamos remodelações integrais, reabilitação de fachadas e remodelações comerciais em toda a comarca de Vega Baja.",
+    "A nossa forma de trabalhar mantém-se inalterada: visitamos o imóvel, tiramos medidas, explicamos as opções com preços reais e só iniciamos os trabalhos quando o cliente sabe exatamente o que será feito, quanto custa e quando fica concluído."
+   ],
+   "valuesTitle": "Os nossos valores",
+   "values": [
+    {
+     "title": "Transparência",
+     "text": "Orçamentos discriminados e sem custos surpresa. Qualquer alteração é aprovada por escrito antes de ser executada."
+    },
+    {
+     "title": "Cumprimento de prazos",
+     "text": "Planeamos os trabalhos com datas por fase e informamo-lo semanalmente sobre o progresso real da obra."
+    },
+    {
+     "title": "Materiais de qualidade",
+     "text": "Trabalhamos com fornecedores e marcas locais de confiança com garantias asseguradas na região."
+    },
+    {
+     "title": "Proximidade",
+     "text": "Um único responsável de obra, sempre contactável por telefone e WhatsApp, em espanhol e inglês."
+    }
+   ],
+   "methodTitle": "Como trabalhamos",
+   "method": [
+    {
+     "step": "01",
+     "title": "Visita e medições",
+     "text": "Visitamos o seu imóvel ou espaço comercial gratuitamente, ouvimos a sua ideia e fazemos o levantamento de medidas e fotos."
+    },
+    {
+     "step": "02",
+     "title": "Orçamento detalhado",
+     "text": "Em 48 horas úteis recebe um orçamento discriminado com especificação de materiais, prazos e condições de pagamento."
+    },
+    {
+     "step": "03",
+     "title": "Planeamento e licenças",
+     "text": "Coordenamos especialidades e materiais e, se necessário, tratamos dos processos municipais e do projeto técnico."
+    },
+    {
+     "step": "04",
+     "title": "Execução com acompanhamento",
+     "text": "Uma obra organizada, proteção diária do seu imóvel e relatórios semanais com fotografias do avanço dos trabalhos."
+    },
+    {
+     "step": "05",
+     "title": "Entrega e garantia",
+     "text": "Revisão final conjunta, limpeza da obra, entrega de certificados de instalação e garantia por escrito."
+    }
+   ],
+   "guaranteesTitle": "Garantias e seguros",
+   "guarantees": [
+    "Empresa registada com todos os colaboradores devidamente inscritos na segurança social espanhola.",
+    "Seguro de responsabilidade civil em vigor para obras de construção e remodelação.",
+    "Garantia escrita de 2 anos em acabamentos e até 10 anos em impermeabilizações e estruturas.",
+    "Certificados de instalações elétricas e de canalização emitidos por técnicos autorizados.",
+    "Plano de segurança e saúde aplicado rigorosamente em todas as obras."
+   ]
+  },
+  "testimonials": {
+   "heroTitle": "Testemunhos de clientes",
+   "heroText": "Avaliações reais de proprietários em Torrevieja e arredores que confiaram na DM Reformas.",
+   "averageLabel": "Classificação média",
+   "reviewsLabel": "avaliações verificadas"
+  },
+  "contact": {
+   "heroTitle": "Contacto e orçamento gratuito",
+   "heroText": "Fale-nos sobre o seu projeto e responderemos com um orçamento detalhado num prazo de 48 horas úteis.",
+   "infoTitle": "Informações de contacto",
+   "hoursTitle": "Horário de funcionamento",
+   "hours": [
+    "Segunda a sexta: 08:00 – 18:00",
+    "Sábado: 09:00 – 13:00",
+    "Domingo: encerrado"
+   ],
+   "mapTitle": "A nossa área de atuação",
+   "formTitle": "Peça o seu orçamento",
+   "formText": "Os campos assinalados com * são de preenchimento obrigatório. Quanto mais detalhes indicar, mais rigoroso será o orçamento."
+  },
+  "form": {
+   "name": "Nome completo *",
+   "phone": "Telefone *",
+   "email": "E-mail *",
+   "city": "Localidade / zona",
+   "cityPlaceholder": "Torrevieja, Orihuela Costa…",
+   "type": "Tipo de remodelação *",
+   "typePlaceholder": "Selecione o tipo de remodelação",
+   "message": "Fale-nos sobre o seu projeto *",
+   "messagePlaceholder": "Descreva o imóvel, o que pretende remodelar e os prazos desejados…",
+   "photos": "Fotografias do projeto",
+   "photosHint": "Opcional. Até 5 imagens (JPG ou PNG, máx. 10 MB cada).",
+   "surface": "Área aproximada (m²)",
+   "budget": "Orçamento previsto",
+   "budgetOptions": [
+    "Menos de 5.000 €",
+    "5.000 € – 15.000 €",
+    "15.000 € – 30.000 €",
+    "30.000 € – 60.000 €",
+    "Mais de 60.000 €",
+    "Ainda não sei"
+   ],
+   "buildingType": "Tipo de imóvel",
+   "buildingOptions": [
+    "Apartamento",
+    "Moradia em banda / bungalow",
+    "Moradia isolada",
+    "Edifício ou condomínio",
+    "Espaço comercial"
+   ],
+   "rooms": "Número de divisões a remodelar",
+   "urgency": "Quando pretende iniciar os trabalhos?",
+   "urgencyOptions": [
+    "O mais brevemente possível",
+    "Em 1 a 3 meses",
+    "Em mais de 3 meses",
+    "Apenas a pesquisar opções"
+   ],
+   "consent": "Li e aceito a",
+   "consentLink": "política de privacidade",
+   "submit": "Enviar pedido",
+   "submitting": "A enviar…",
+   "successTitle": "Pedido enviado!",
+   "successText": "Obrigado por confiar na DM Reformas. Recebemos o seu pedido e responderemos no prazo de 48 horas úteis.",
+   "newRequest": "Enviar outro pedido",
+   "errorTitle": "Não foi possível enviar o seu pedido",
+   "errorText": "Por favor, tente novamente dentro de instantes ou contacte-nos diretamente por WhatsApp ou telefone.",
+   "required": "Este campo é obrigatório",
+   "invalidEmail": "Introduza um endereço de e-mail válido",
+   "invalidPhone": "Introduza um número de telefone válido (mín. 9 dígitos)",
+   "tooShort": "Por favor, escreva pelo menos 10 carateres",
+   "consentRequired": "Tem de aceitar a política de privacidade",
+   "optional": "opcional",
+   "uploading": "A carregar fotografias…"
+  },
+  "footer": {
+   "about": "Empresa de construção e remodelações em Torrevieja. Remodelações integrais, cozinhas, casas de banho, fachadas, telhados e espaços comerciais em todo o sul da Costa Blanca.",
+   "quickLinks": "Ligações rápidas",
+   "legalLinks": "Informação legal",
+   "contact": "Contacto",
+   "rights": "Todos os direitos reservados.",
+   "builtIn": "Torrevieja · Alicante · Espanha"
+  },
+  "cookies": {
+   "title": "A sua privacidade",
+   "text": "Utilizamos cookies próprios necessários para o funcionamento do website e, com o seu consentimento, cookies de medição para melhorar os nossos conteúdos.",
+   "accept": "Aceitar todos",
+   "reject": "Apenas os necessários",
+   "more": "Saber mais"
+  },
+  "legalPages": {
+   "legal": {
+    "title": "Aviso legal",
+    "updated": "Última atualização: setembro de 2026",
+    "blocks": [
+     {
+      "heading": "1. Dados de identificação",
+      "body": [
+       "Em conformidade com o artigo 10 da Lei Espanhola 34/2002 sobre Serviços da Sociedade da Informação e Comércio Eletrónico (LSSI-CE), este website é propriedade da DM Reformas, com sede em Torrevieja (Alicante, Espanha), e e-mail de contacto dm.reformasinnovamos@gmail.com.",
+       "Os dados completos da empresa (denominação social, NIF e sede fiscal) serão incorporados neste aviso legal assim que fornecidos pelo titular."
+      ]
+     },
+     {
+      "heading": "2. Objeto e termos de utilização",
+      "body": [
+       "O presente website tem por finalidade apresentar os serviços de remodelação e construção da DM Reformas e permitir que os utilizadores solicitem orçamentos sem compromisso.",
+       "O acesso ao website implica a aceitação das presentes condições. O utilizador compromete-se a utilizar o site e os seus formulários de forma lícita, abstendo-se de facultar dados falsos ou conteúdos que possam danificar os sistemas do titular ou de terceiros."
+      ]
+     },
+     {
+      "heading": "3. Propriedade intelectual e industrial",
+      "body": [
+       "Os textos, fotografias, logótipos, marcas e elementos gráficos presentes neste site são propriedade da DM Reformas ou são utilizados com a devida autorização. É proibida a sua reprodução, distribuição ou transformação sem autorização expressa por escrito."
+      ]
+     },
+     {
+      "heading": "4. Responsabilidade",
+      "body": [
+       "A DM Reformas não garante a ausência de interrupções ou erros no acesso ao website, ainda que tome as medidas razoáveis para os evitar. Os orçamentos, prazos e preços divulgados a título meramente informativo não constituem uma proposta contratual vinculativa até à sua formalização por escrito."
+      ]
+     },
+     {
+      "heading": "5. Legislação aplicável",
+      "body": [
+       "As presentes condições regem-se pela legislação espanhola. Qualquer litígio será submetido aos tribunais do domicílio do proprietário do website, salvo se a legislação de proteção do consumidor determinar foro diferente."
+      ]
+     }
+    ]
+   },
+   "privacy": {
+    "title": "Política de privacidade",
+    "updated": "Última atualização: setembro de 2026",
+    "blocks": [
+     {
+      "heading": "1. Responsável pelo tratamento",
+      "body": [
+       "Responsável: DM Reformas (Torrevieja, Alicante, Espanha). E-mail de contacto: dm.reformasinnovamos@gmail.com."
+      ]
+     },
+     {
+      "heading": "2. Finalidade e base jurídica",
+      "body": [
+       "Tratamos os dados que disponibiliza através do formulário de contacto (nome, telefone, e-mail, localidade, tipo de remodelação, descrição do projeto e, caso anexe, fotografias) com o objetivo de responder ao seu pedido, elaborar o orçamento e manter a relação comercial decorrente desse pedido.",
+       "A base jurídica é o seu consentimento explícito no envio do formulário (art. 6.1.a do RGPD) e o interesse legítimo na gestão de pedidos de orçamento e no acompanhamento da relação pré-contratual (art. 6.1.b do RGPD)."
+      ]
+     },
+     {
+      "heading": "3. Conservação dos dados",
+      "body": [
+       "Os dados serão conservados durante o tempo estritamente necessário para responder ao seu pedido e, posteriormente, pelos prazos legais aplicáveis às obrigações fiscais e contratuais. Caso não venha a ser celebrado contrato, os dados serão eliminados no prazo máximo de dois anos após o último contacto."
+      ]
+     },
+     {
+      "heading": "4. Destinatários e subcontratantes",
+      "body": [
+       "Os dados são armazenados nos servidores dos nossos fornecedores de alojamento web, base de dados e serviço de correio eletrónico, que atuam na qualidade de subcontratantes ao abrigo de acordos conformes com o artigo 28 do RGPD. Não vendemos os seus dados a terceiros nem realizamos transferências internacionais sem as salvaguardas adequadas."
+      ]
+     },
+     {
+      "heading": "5. Direitos do titular",
+      "body": [
+       "Poderá exercer os seus direitos de acesso, retificação, apagamento, oposição, limitação do tratamento e portabilidade enviando uma mensagem para dm.reformasinnovamos@gmail.com, indicando o direito que pretende exercer e juntando um comprovativo de identidade.",
+       "Tem igualmente o direito de apresentar uma reclamação junto da Agência Espanhola de Proteção de Dados (www.aepd.es) caso considere que o tratamento dos seus dados não respeita a legislação em vigor."
+      ]
+     },
+     {
+      "heading": "6. Segurança",
+      "body": [
+       "Aplicamos medidas técnicas e organizativas adequadas para proteger os seus dados pessoais contra acessos não autorizados, perdas ou alterações, incluindo a encriptação de dados em trânsito e o controlo de acessos à base de dados de pedidos de contacto."
+      ]
+     }
+    ]
+   },
+   "cookies": {
+    "title": "Política de cookies",
+    "updated": "Última atualização: setembro de 2026",
+    "blocks": [
+     {
+      "heading": "1. O que são cookies",
+      "body": [
+       "Um cookie é um pequeno ficheiro de texto armazenado no seu navegador ao visitar um website. Permite recordar informações sobre a sua visita, tais como o idioma selecionado ou as suas preferências de privacidade."
+      ]
+     },
+     {
+      "heading": "2. Cookies que utilizamos",
+      "body": [
+       "Cookies técnicos necessários: essenciais para o funcionamento do site e para memorizar a sua escolha relativamente aos cookies. Não requerem consentimento.",
+       "Cookies de medição: apenas ativados caso opte por aceitar todos os cookies. Ajudam-nos a compreender, de forma agregada, quais as páginas mais visitadas para otimizar os nossos conteúdos.",
+       "Cookies de terceiros: ao visualizar o mapa incorporado na página de contacto, a Google poderá definir os seus próprios cookies. O mapa só é carregado após a aceitação de cookies ou interação deliberada."
+      ]
+     },
+     {
+      "heading": "3. Como gerir os cookies",
+      "body": [
+       "Pode alterar a sua escolha a qualquer momento limpando os dados deste website no seu navegador, o que fará com que o aviso de consentimento surja novamente. Pode também bloquear ou eliminar cookies através das definições de privacidade do Chrome, Safari, Firefox ou Edge."
+      ]
+     }
+    ]
+   }
+  },
+  "meta": {
+   "home": {
+    "title": "Remodelações em Torrevieja | DM Reformas Costa Blanca",
+    "description": "Empresa de remodelações integrais em Torrevieja: cozinhas, casas de banho, fachadas, coberturas, piscinas e lojas na Costa Blanca. Orçamento gratuito em 48 h."
+   },
+   "services": {
+    "title": "Serviços de remodelação em Torrevieja | DM Reformas",
+    "description": "Remodelações integrais, cozinhas, casas de banho, fachadas, telhados, piscinas, pintura, eletricidade e lojas em Torrevieja e no sul da Costa Blanca."
+   },
+   "projects": {
+    "title": "Projetos e antes e depois de remodelações | DM Reformas",
+    "description": "Galeria de remodelações concluídas em Torrevieja, Orihuela Costa e Guardamar: apartamentos, cozinhas, casas de banho, fachadas e piscinas com fotos de antes e depois."
+   },
+   "about": {
+    "title": "Sobre nós | Empresa de remodelações em Torrevieja",
+    "description": "Conheça a DM Reformas: mais de 15 anos a remodelar habitações e espaços comerciais na Costa Blanca, com equipas próprias, garantias e prazos por escrito."
+   },
+   "testimonials": {
+    "title": "Avaliações de clientes | DM Reformas Torrevieja",
+    "description": "Testemunhos verificados de clientes da DM Reformas em Torrevieja, La Mata, Orihuela Costa, Guardamar e Ciudad Quesada."
+   },
+   "contact": {
+    "title": "Contacto e orçamento gratuito | DM Reformas Torrevieja",
+    "description": "Peça o seu orçamento sem compromisso para remodelações em Torrevieja. Formulário, telefone, WhatsApp e área de atuação na Costa Blanca."
+   },
+   "legal": {
+    "title": "Aviso legal | DM Reformas",
+    "description": "Informação legal do website da DM Reformas, empresa de remodelações e construção em Torrevieja, Alicante."
+   },
+   "privacy": {
+    "title": "Política de privacidade | DM Reformas",
+    "description": "Como tratamos os seus dados pessoais ao abrigo do RGPD quando solicita um orçamento à DM Reformas."
+   },
+   "cookies": {
+    "title": "Política de cookies | DM Reformas",
+    "description": "Informações sobre os cookies utilizados no website da DM Reformas e como geri-los."
+   }
+  }
+ },
+ "extra": {
+  "homeHeroAlt": "Profissional da DM Reformas a trabalhar numa remodelação em Torrevieja",
+  "homeAboutAlt": "Profissional da DM Reformas a trabalhar numa obra em Torrevieja",
+  "servicesHeroAlt": "Trabalhadores da DM Reformas a restaurar uma fachada na Costa Blanca",
+  "projectsHeroAlt": "Terraço com pérgula remodelado pela DM Reformas",
+  "testimonialsHeroAlt": "Cozinha remodelada pela DM Reformas para um cliente em Orihuela Costa",
+  "contactHeroAlt": "Casa de banho remodelada pela DM Reformas em Torrevieja",
+  "aboutHeroAlt": "Equipa técnica da DM Reformas a analisar plantas de projeto",
+  "aboutSecondAlt": "Trabalhador da DM Reformas a montar uma estrutura em obra",
+  "whatsappShort": "Olá DM Reformas, gostaria de pedir um orçamento.",
+  "whatsappLong": "Olá DM Reformas, gostaria de pedir um orçamento para a minha remodelação."
+ },
+ "projects": {
+  "piso-torrevieja": {
+   "title": "Remodelação integral de apartamento de 85 m²",
+   "description": "Nova distribuição de divisões, novas instalações elétricas e de canalização, chão porcelânico contínuo e cozinha em open space com a sala.",
+   "alt": "Antes e depois de uma remodelação integral de apartamento em Torrevieja"
+  },
+  "bano-la-mata": {
+   "title": "Casa de banho completa com duche ao nível do chão",
+   "description": "Substituição de banheira por base de duche, azulejos de grande formato, móvel suspenso e iluminação LED indireta.",
+   "alt": "Antes e depois de uma remodelação de casa de banho em La Mata"
+  },
+  "cocina-orihuela": {
+   "title": "Cozinha em open space com ilha e bancada em quartzo",
+   "description": "Demolição de parede divisória, móveis novos por medida, eletrodomésticos encastrados e melhoria da ventilação.",
+   "alt": "Antes e depois de uma remodelação de cozinha em Orihuela Costa"
+  },
+  "fachada-guardamar": {
+   "title": "Reabilitação e isolamento de fachada",
+   "description": "Reparação de fissuras, reboco monocamada, impermeabilização e pintura elástica resistente à maresia.",
+   "alt": "Antes e depois de uma reabilitação de fachada em Guardamar"
+  },
+  "piscina-quesada": {
+   "title": "Remodelação de piscina e zona exterior de lazer",
+   "description": "Novo revestimento, bordadura em porcelânico antiderrapante, iluminação LED e sistema de filtragem renovado.",
+   "alt": "Piscina remodelada em Ciudad Quesada"
+  },
+  "local-torrevieja": {
+   "title": "Remodelação de espaço comercial",
+   "description": "Obras completas com ar condicionado, iluminação por calhas, nova montra e certificado de instalação.",
+   "alt": "Espaço comercial remodelado no centro de Torrevieja"
+  },
+  "terraza-balcones": {
+   "title": "Ampliação de terraço com pérgula bioclimática",
+   "description": "Estrutura de alumínio, deck exterior compósito, tomadas estanques e projeto técnico aprovado.",
+   "alt": "Terraço ampliado com pérgula em Los Balcones"
+  }
+ },
+ "services": {
+  "integral": "Sala de estar de habitação totalmente remodelada em Torrevieja",
+  "cocina": "Cozinha moderna remodelada com móveis em tom antracite",
+  "bano": "Casa de banho remodelada com duche ao nível do chão e azulejos de grande formato",
+  "fachada": "Trabalhadores a restaurar a fachada de um edifício na Costa Blanca",
+  "tejado": "Colocação de telhas novas na cobertura de uma moradia",
+  "piscina": "Piscina privada remodelada com bordadura em porcelânico",
+  "extension": "Técnico da DM Reformas a rever plantas de ampliação",
+  "pintura": "Profissional da DM Reformas a trabalhar em obra",
+  "instalaciones": "Terraço com pérgula de alumínio e chão exterior em deck",
+  "local": "Espaço comercial remodelado pronto a abrir"
+ },
+ "testimonials": {
+  "t1": {
+   "type": "Remodelação integral",
+   "text": "Remodelaram o nosso apartamento de alto a baixo dentro do prazo prometido. Orçamento claro, sem surpresas e uma obra limpa todos os dias. A equipa explicou tudo antes de avançar."
+  },
+  "t2": {
+   "type": "Cozinha e casa de banho",
+   "text": "Vivo entre Inglaterra e Espanha e geriram a obra à distância com envio semanal de fotos. Quando cheguei, estava tudo pronto e impecável."
+  },
+  "t3": {
+   "type": "Fachada e telhado",
+   "text": "Tínhamos problemas de humidade há anos. Fizeram o diagnóstico, impermeabilizaram a cobertura e reabilitaram a fachada. Passados dois invernos, não temos uma única mancha."
+  },
+  "t4": {
+   "type": "Piscina e deck",
+   "text": "Muito profissionais e pontuais. A piscina parece nova e ainda nos aconselharam sobre como reduzir o consumo do sistema de filtragem."
+  },
+  "t5": {
+   "type": "Casa de banho",
+   "text": "Trabalho impecável em 12 dias. Apenas um pequeno atraso na entrega das louças sanitárias, que nos avisaram com antecedência."
+  },
+  "t6": {
+   "type": "Espaço comercial",
+   "text": "Abrimos a loja na data planeada. Trataram da licença, do ar condicionado e da certificação elétrica."
+  }
+ }
+}
