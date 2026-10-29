@@ -1,0 +1,586 @@
+{
+ "dict": {
+  "htmlLang": "de",
+  "nav": {
+   "home": "Startseite",
+   "services": "Leistungen",
+   "projects": "Projekte",
+   "about": "Über uns",
+   "testimonials": "Referenzen",
+   "contact": "Kontakt"
+  },
+  "common": {
+   "quoteCta": "Kostenloses Angebot anfordern",
+   "quoteCtaShort": "Angebot anfordern",
+   "callUs": "Rufen Sie uns an",
+   "whatsapp": "WhatsApp",
+   "whatsappAria": "Schreiben Sie uns auf WhatsApp",
+   "seeAll": "Alle Projekte ansehen",
+   "seeMore": "Leistung anzeigen",
+   "before": "Vorher",
+   "after": "Nachher",
+   "dragHint": "Ziehen zum Vergleichen",
+   "duration": "Dauer",
+   "location": "Standort",
+   "languageLabel": "Sprache",
+   "switchTo": "Español",
+   "menu": "Menü",
+   "close": "Schließen",
+   "serviceArea": "Einsatzgebiet",
+   "googleReviews": "Unsere Google-Bewertungen ansehen",
+   "googleReviewsAria": "Bewertungen von DM Reformas auf Google ansehen (öffnet in neuem Tab)"
+  },
+  "home": {
+   "heroKicker": "Sanierungen in Torrevieja und an der Costa Blanca",
+   "heroTitle": "Komplettsanierungen mit erstklassigen Ergebnissen",
+   "heroText": "DM Reformas renoviert Wohnungen, Villen und Gewerbeflächen in Torrevieja und Umgebung. Detaillierte Angebote, schriftlich vereinbarte Fristen und ein fester Ansprechpartner von Anfang bis Ende.",
+   "heroSecondary": "Unsere Projekte ansehen",
+   "stats": [
+    {
+     "value": "15+",
+     "label": "Jahre Baustellenerfahrung"
+    },
+    {
+     "value": "400+",
+     "label": "abgeschlossene Projekte"
+    },
+    {
+     "value": "100%",
+     "label": "unverbindliche Angebote"
+    },
+    {
+     "value": "48 h",
+     "label": "durchschnittliche Antwortzeit"
+    }
+   ],
+   "aboutKicker": "Über uns",
+   "aboutTitle": "Ein lokales Team, das für seine Arbeit einsteht",
+   "aboutText": [
+    "Wir sind ein Renovierungs- und Bauunternehmen mit Sitz in Torrevieja. Wir arbeiten mit eigenen Teams für Maurer-, Elektro-, Sanitär- und Schreinerarbeiten, wodurch wir Termine und Qualität in jeder Bauphase präzise steuern können.",
+    "Wir betreuen Eigentümer vor Ort ebenso wie internationale Kunden, die aus dem Ausland sanieren: Fotodokumentation, Kommunikation auf Spanisch und Englisch und eine stets saubere Baustelle."
+   ],
+   "servicesKicker": "Leistungen",
+   "servicesTitle": "Jede Art von Sanierung – ein einziger Ansprechpartner",
+   "servicesText": "Von der Komplettsanierung bis zum neuen Badezimmer: Wir kümmern uns um Genehmigungen, Materialien, Handwerker und die Endreinigung.",
+   "areaKicker": "Einsatzgebiet",
+   "areaTitle": "Torrevieja und die südliche Costa Blanca",
+   "areaText": "Im Umkreis von 40 km um Torrevieja besichtigen wir Ihr Projekt kostenlos vor Ort.",
+   "projectsKicker": "Projekte",
+   "projectsTitle": "Vorher und Nachher realer Baustellen",
+   "projectsText": "Eine Auswahl von Sanierungen unseres Teams in der gesamten Provinz Alicante.",
+   "testimonialsKicker": "Erfahrungsberichte",
+   "testimonialsTitle": "Was unsere Kunden sagen",
+   "ctaTitle": "Planen Sie ein Projekt?",
+   "ctaText": "Sagen Sie uns, was Sie renovieren möchten, und Sie erhalten innerhalb von 48 Werksstunden ein detailliertes, unverbindliches Angebot."
+  },
+  "services": {
+   "heroTitle": "Renovierungs- und Baudienstleistungen",
+   "heroText": "Wir realisieren Neubauten und Sanierungen jeder Größenordnung mit hochwertigen Materialien und schriftlicher Garantie.",
+   "ctaLabel": "Angebot für diese Leistung anfordern",
+   "items": {
+    "integral": {
+     "title": "Komplettsanierungen",
+     "description": "Vollständige Modernisierung Ihrer Immobilie: Raumaufteilung, Installationen, Böden, Schreinerarbeiten und Endbearbeitung aus einer Hand.",
+     "bullets": [
+      "Projektierung und Baugenehmigungen",
+      "Komplett neue Installationen",
+      "Schriftlich garantierte Fertigstellung"
+     ]
+    },
+    "cocina": {
+     "title": "Küchenrenovierung",
+     "description": "Praktische, langlebige Küchen: Maßgefertigte Schränke, Arbeitsplatten aus Quarz oder Keramik und integrierte Elektrogeräte.",
+     "bullets": [
+      "3D-Planung im Voraus",
+      "Sanitär- und Elektroinstallation",
+      "Montage in 3 Wochen"
+     ]
+    },
+    "bano": {
+     "title": "Badsanierung",
+     "description": "Wir tauschen Badewannen gegen Duschwannen aus und erneuern Fliesen, Sanitärobjekte sowie Beleuchtung in unter zwei Wochen.",
+     "bullets": [
+      "Maßgefertigte bodengleiche Dusche",
+      "Garantierte Abdichtung",
+      "Schnelle, saubere Ausführung"
+     ]
+    },
+    "fachada": {
+     "title": "Fassaden und Instandsetzung",
+     "description": "Rissreparatur, Einlagenputz, Wärmedämmverbundsystem (WDVS/SATE), Abdichtung und salzbeständige Schutzanstriche.",
+     "bullets": [
+      "Zertifizierte Gerüste",
+      "Behandlung gegen Feuchtigkeit",
+      "Bessere Energieeffizienz"
+     ]
+    },
+    "tejado": {
+     "title": "Dächer und Eindeckungen",
+     "description": "Instandsetzung und Erneuerung von Flach- und Schrägdächern, Dachziegeln, Dämmung und Regenrinnen.",
+     "bullets": [
+      "Leckage-Diagnose",
+      "Abdichtung",
+      "10 Jahre Garantie"
+     ]
+    },
+    "piscina": {
+     "title": "Pools und Außenbereiche",
+     "description": "Bau und Sanierung von Pools, rutschfeste Beckenumrandungen, Filtersysteme und LED-Beleuchtung.",
+     "bullets": [
+      "Folienauskleidung und Mosaikfliesen",
+      "Sonnendeck aus Feinsteinzeug",
+      "Inbetriebnahme inklusive"
+     ]
+    },
+    "extension": {
+     "title": "Anbauten, Terrassen und Pergolen",
+     "description": "Wohnraumerweiterungen, Glasverglasungen, Terrassendecks und bioklimatische Pergolen mit genehmigtem Bauprojekt.",
+     "bullets": [
+      "Technisches Bauprojekt",
+      "Aluminium- oder Massivbauweise",
+      "Behördengänge abgewickelt"
+     ]
+    },
+    "pintura": {
+     "title": "Malerarbeiten und Wandgestaltung",
+     "description": "Innen- und Außenanstriche, Glätten von Wänden, Mikrozement, Tapeten und Anti-Schimmel-Behandlungen.",
+     "bullets": [
+      "Vollständiger Schutz der Möbel",
+      "Abwaschbare Qualitätsfarben",
+      "Einwandfreie Oberflächen"
+     ]
+    },
+    "instalaciones": {
+     "title": "Elektro und Sanitär",
+     "description": "Neuinstallationen und Modernisierung von Schaltschränken, Rohrleitungen, Klimaanlagen und Warmwassersystemen.",
+     "bullets": [
+      "Elektrozertifikat (Boletín)",
+      "Leckageortung",
+      "Aerothermie und Klimatisierung"
+     ]
+    },
+    "local": {
+     "title": "Gewerbeflächen",
+     "description": "Kompletter Ausbau von Ladenlokalen und Büros: Raumaufteilung, Klimatechnik, Beleuchtung, Schaufenster und Zertifikate.",
+     "bullets": [
+      "Kurze Ausführungsfristen",
+      "Nutzungsgenehmigung",
+      "Arbeiten außerhalb der Geschäftszeiten"
+     ]
+    },
+    "otro": {
+     "title": "Sonstige Arbeiten",
+     "description": "Schreinerarbeiten, Fliesenlegen, Duschabtrennungen, Einfriedungen, Kleinreparaturen und Instandhaltung für Eigentümergemeinschaften.",
+     "bullets": [
+      "Detaillierter Kostenvoranschlag",
+      "Eigene Handwerkerteams",
+      "Schnelle Reaktionszeit"
+     ]
+    }
+   }
+  },
+  "projects": {
+   "heroTitle": "Abgeschlossene Projekte",
+   "heroText": "Filtern Sie nach Art der Arbeit und ziehen Sie das jeweilige Bild, um das Vorher und Nachher unserer Sanierungen zu sehen.",
+   "filterAll": "Alle",
+   "filters": {
+    "integral": "Komplettsanierungen",
+    "cocina": "Küchen",
+    "bano": "Bäder",
+    "fachada": "Fassaden",
+    "piscina": "Pools",
+    "extension": "Terrassen & Anbauten",
+    "local": "Gewerbeflächen"
+   }
+  },
+  "about": {
+   "heroTitle": "Über DM Reformas",
+   "heroText": "Innovamos en tu proyecto: moderne Baulösungen, sorgfältige Ausführung und direkter Kontakt zur Bauleitung.",
+   "storyTitle": "Unsere Geschichte",
+   "story": [
+    "DM Reformas wurde in Torrevieja von Fachleuten mit über fünfzehn Jahren Baustellenerfahrung an der Costa Blanca gegründet. Wir begannen mit Bad- und Küchenrenovierungen für Nachbarn im Stadtzentrum und führen heute Komplettsanierungen, Fassadenrestaurierungen und Gewerbeausbauten in der gesamten Region Vega Baja durch.",
+    "Unsere Arbeitsweise hat sich nicht geändert: Wir besichtigen die Immobilie, nehmen Maß, erläutern die Möglichkeiten mit transparenten Festpreisen und beginnen erst, wenn der Kunde genau weiß, was getan wird, was es kostet und wann es fertig ist."
+   ],
+   "valuesTitle": "Unsere Werte",
+   "values": [
+    {
+     "title": "Transparenz",
+     "text": "Aufgeschlüsselte Angebote ohne versteckte Überraschungen. Jede Änderung wird vor der Ausführung schriftlich freigegeben."
+    },
+    {
+     "title": "Termintreue",
+     "text": "Wir planen die Arbeiten mit festen Etappenzielen und informieren Sie jede Woche über den tatsächlichen Baufortschritt."
+    },
+    {
+     "title": "Qualitätsmaterialien",
+     "text": "Wir arbeiten mit bewährten lokalen Lieferanten und Marken, deren Garantien vor Ort anerkannt sind."
+    },
+    {
+     "title": "Persönlicher Kontakt",
+     "text": "Ein einziger Bauleiter, erreichbar per Telefon und WhatsApp, auf Spanisch und Englisch."
+    }
+   ],
+   "methodTitle": "Wie wir arbeiten",
+   "method": [
+    {
+     "step": "01",
+     "title": "Besichtigung und Aufmaß",
+     "text": "Wir besichtigen Ihr Zuhause oder Gewerbeobjekt kostenlos, hören uns Ihre Vorstellungen an und nehmen Maße sowie Fotos auf."
+    },
+    {
+     "step": "02",
+     "title": "Detailliertes Angebot",
+     "text": "Innerhalb von 48 Werksstunden erhalten Sie ein aufgeschlüsseltes Angebot mit Materialien, Fristen und Zahlungsbedingungen."
+    },
+    {
+     "step": "03",
+     "title": "Planung und Genehmigungen",
+     "text": "Wir koordinieren Gewerke und Baustoffe sowie bei Bedarf behördliche Anträge und die technische Projektplanung."
+    },
+    {
+     "step": "04",
+     "title": "Ausführung mit Baubegleitung",
+     "text": "Eine saubere Baustelle, täglicher Schutz Ihrer Räume und ein wöchentlicher Zwischenbericht mit aktuellen Fotos."
+    },
+    {
+     "step": "05",
+     "title": "Übergabe und Garantie",
+     "text": "Gemeinsame Endabnahme, Baustellenreinigung, Übergabe aller Installationszertifikate und eine schriftliche Garantie."
+    }
+   ],
+   "guaranteesTitle": "Garantien und Versicherungen",
+   "guarantees": [
+    "Eingetragenes Unternehmen mit allen Arbeitskräften ordnungsgemäß bei der spanischen Sozialversicherung gemeldet.",
+    "Gültige Betriebshaftpflichtversicherung für Bau- und Renovierungsarbeiten.",
+    "Schriftliche 2-jährige Garantie auf Endarbeiten und bis zu 10 Jahre auf Abdichtung und Bausubstanz.",
+    "Elektro- und Sanitärzertifikate, ausgestellt von autorisierten Fachinstallateuren.",
+    "Sicherheits- und Gesundheitsschutzplan auf jeder Baustelle."
+   ]
+  },
+  "testimonials": {
+   "heroTitle": "Kundenstimmen",
+   "heroText": "Echte Bewertungen von Eigentümern in Torrevieja und Umgebung, die DM Reformas vertraut haben.",
+   "averageLabel": "Durchschnittliche Bewertung",
+   "reviewsLabel": "verifizierte Bewertungen"
+  },
+  "contact": {
+   "heroTitle": "Kontakt und kostenloses Angebot",
+   "heroText": "Erzählen Sie uns von Ihrem Projekt und Sie erhalten innerhalb von 48 Werksstunden ein detailliertes Angebot.",
+   "infoTitle": "Kontaktdaten",
+   "hoursTitle": "Öffnungszeiten",
+   "hours": [
+    "Montag bis Freitag: 08:00 – 18:00 Uhr",
+    "Samstag: 09:00 – 13:00 Uhr",
+    "Sonntag: geschlossen"
+   ],
+   "mapTitle": "Unser Einsatzgebiet",
+   "formTitle": "Angebot anfordern",
+   "formText": "Mit * markierte Felder sind Pflichtfelder. Je mehr Informationen Sie uns geben, desto präziser können wir Ihr Angebot kalkulieren."
+  },
+  "form": {
+   "name": "Vollständiger Name *",
+   "phone": "Telefon *",
+   "email": "E-Mail *",
+   "city": "Ort / Gebiet",
+   "cityPlaceholder": "Torrevieja, Orihuela Costa…",
+   "type": "Art der Sanierung *",
+   "typePlaceholder": "Wählen Sie die Art der Sanierung",
+   "message": "Erzählen Sie uns von Ihrem Projekt *",
+   "messagePlaceholder": "Beschreiben Sie die Immobilie, die gewünschten Arbeiten und Ihren Wunschzeitraum…",
+   "photos": "Projektfotos",
+   "photosHint": "Optional. Bis zu 5 Bilder (JPG oder PNG, max. 10 MB pro Datei).",
+   "surface": "Ungefähre Fläche (m²)",
+   "budget": "Ungefähres Budget",
+   "budgetOptions": [
+    "Unter 5.000 €",
+    "5.000 € – 15.000 €",
+    "15.000 € – 30.000 €",
+    "30.000 € – 60.000 €",
+    "Über 60.000 €",
+    "Noch nicht festgelegt"
+   ],
+   "buildingType": "Gebäudeart",
+   "buildingOptions": [
+    "Wohnung",
+    "Reihenhaus / Bungalow",
+    "Freistehende Villa",
+    "Gebäude oder Eigentümergemeinschaft",
+    "Gewerbefläche"
+   ],
+   "rooms": "Anzahl der zu renovierenden Räume",
+   "urgency": "Wann möchten Sie beginnen?",
+   "urgencyOptions": [
+    "So schnell wie möglich",
+    "In 1 – 3 Monaten",
+    "In mehr als 3 Monaten",
+    "Ich informiere mich zunächst nur"
+   ],
+   "consent": "Ich habe die",
+   "consentLink": "Datenschutzerklärung gelesen und akzeptiere sie",
+   "submit": "Anfrage absenden",
+   "submitting": "Wird gesendet…",
+   "successTitle": "Anfrage gesendet!",
+   "successText": "Vielen Dank für Ihr Vertrauen in DM Reformas. Wir haben Ihre Anfrage erhalten und antworten Ihnen innerhalb von 48 Werksstunden.",
+   "newRequest": "Weitere Anfrage senden",
+   "errorTitle": "Ihre Anfrage konnte nicht gesendet werden",
+   "errorText": "Bitte versuchen Sie es in wenigen Minuten erneut oder kontaktieren Sie uns direkt per WhatsApp oder Telefon.",
+   "required": "Dieses Feld ist erforderlich",
+   "invalidEmail": "Geben Sie eine gültige E-Mail-Adresse ein",
+   "invalidPhone": "Geben Sie eine gültige Telefonnummer ein (mind. 9 Ziffern)",
+   "tooShort": "Bitte geben Sie mindestens 10 Zeichen ein",
+   "consentRequired": "Sie müssen die Datenschutzerklärung akzeptieren",
+   "optional": "optional",
+   "uploading": "Fotos werden hochgeladen…"
+  },
+  "footer": {
+   "about": "Renovierungs- und Bauunternehmen in Torrevieja. Komplettsanierungen, Küchen, Bäder, Fassaden, Dächer und Gewerbeflächen an der südlichen Costa Blanca.",
+   "quickLinks": "Schnelllinks",
+   "legalLinks": "Rechtliches",
+   "contact": "Kontakt",
+   "rights": "Alle Rechte vorbehalten.",
+   "builtIn": "Torrevieja · Alicante · Spanien"
+  },
+  "cookies": {
+   "title": "Ihre Privatsphäre",
+   "text": "Wir verwenden eigene Cookies, die für den Betrieb der Website technisch notwendig sind, und mit Ihrer Erlaubnis Analyse-Cookies zur Optimierung unserer Inhalte.",
+   "accept": "Alle akzeptieren",
+   "reject": "Nur notwendige",
+   "more": "Mehr erfahren"
+  },
+  "legalPages": {
+   "legal": {
+    "title": "Impressum",
+    "updated": "Stand: September 2026",
+    "blocks": [
+     {
+      "heading": "1. Angaben zum Betreiber",
+      "body": [
+       "Gemäß Artikel 10 des spanischen Gesetzes 34/2002 über Dienste der Informationsgesellschaft und des elektronischen Geschäftsverkehrs (LSSI-CE) ist diese Website Eigentum von DM Reformas mit Sitz in Torrevieja (Alicante, Spanien), Kontakt-E-Mail: dm.reformasinnovamos@gmail.com.",
+       "Vollständige Unternehmensangaben (Handelsregistername, Steuernummer und Firmensitz) werden diesem Impressum hinzugefügt, sobald sie vom Inhaber bereitgestellt werden."
+      ]
+     },
+     {
+      "heading": "2. Zweck und Nutzungsbedingungen",
+      "body": [
+       "Der Zweck dieser Website ist die Vorstellung der Renovierungs- und Baudienstleistungen von DM Reformas sowie die Möglichkeit für Nutzer, unverbindliche Kostenvoranschläge anzufordern.",
+       "Der Zugriff auf die Website setzt die Annahme dieser Bedingungen voraus. Die Nutzer verpflichten sich, die Website und ihre Formulare rechtmäßig zu nutzen, ohne falsche Daten zu übermitteln oder Inhalte einzugeben, die die Systeme des Betreibers oder Dritter schädigen könnten."
+      ]
+     },
+     {
+      "heading": "3. Geistiges und gewerbliches Eigentum",
+      "body": [
+       "Texte, Fotografien, Logos, Marken und grafische Elemente auf dieser Website sind Eigentum von DM Reformas oder werden mit entsprechender Genehmigung verwendet. Die Vervielfältigung, Verbreitung oder Veränderung ohne ausdrückliche schriftliche Genehmigung ist untersagt."
+      ]
+     },
+     {
+      "heading": "4. Haftung",
+      "body": [
+       "DM Reformas übernimmt keine Gewähr für die ununterbrochene oder fehlerfreie Verfügbarkeit der Website, ergreift jedoch angemessene Maßnahmen, um Störungen zu vermeiden. Zu Informationszwecken veröffentlichte Angebote, Fristen und Preise stellen kein verbindliches Vertragsangebot dar, solange sie nicht schriftlich formalisiert wurden."
+      ]
+     },
+     {
+      "heading": "5. Anwendbares Recht",
+      "body": [
+       "Diese Bedingungen unterliegen spanischem Recht. Für Streitigkeiten sind die Gerichte am Sitz des Betreibers zuständig, sofern das Verbraucherschutzrecht keinen anderen Gerichtsstand vorschreibt."
+      ]
+     }
+    ]
+   },
+   "privacy": {
+    "title": "Datenschutzerklärung",
+    "updated": "Stand: September 2026",
+    "blocks": [
+     {
+      "heading": "1. Verantwortlicher",
+      "body": [
+       "Verantwortlicher: DM Reformas (Torrevieja, Alicante, Spanien). Kontakt-E-Mail: dm.reformasinnovamos@gmail.com."
+      ]
+     },
+     {
+      "heading": "2. Zweck und Rechtsgrundlage",
+      "body": [
+       "Wir verarbeiten die von Ihnen im Kontaktformular angegebenen Daten (Name, Telefonnummer, E-Mail-Adresse, Ort, Art der Sanierung, Projektbeschreibung und ggf. beigefügte Fotos), um Ihre Anfrage zu beantworten, ein Angebot zu erstellen und den daraus entstehenden geschäftlichen Kontakt aufrechtzuerhalten.",
+       "Die Rechtsgrundlage ist Ihre ausdrückliche Einwilligung beim Absenden des Formulars (Art. 6 Abs. 1 lit. a DSGVO) sowie das berechtigte Interesse an der Bearbeitung von Angebotsanfragen und der Durchführung vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO)."
+      ]
+     },
+     {
+      "heading": "3. Speicherdauer",
+      "body": [
+       "Wir speichern Ihre Daten so lange, wie es zur Bearbeitung Ihrer Anfrage erforderlich ist, und anschließend für die gesetzlichen Aufbewahrungs- und Verjährungsfristen bezüglich steuerlicher und vertraglicher Pflichten. Kommt kein Vertrag zustande, werden Ihre Daten spätestens zwei Jahre nach dem letzten Kontakt gelöscht."
+      ]
+     },
+     {
+      "heading": "4. Empfänger und Auftragsverarbeiter",
+      "body": [
+       "Ihre Daten werden auf den Servern unserer Hosting-, Datenbank- und E-Mail-Dienstleister gespeichert, die als Auftragsverarbeiter gemäß Artikel 28 DSGVO tätig sind. Wir verkaufen Ihre Daten nicht an Dritte und führen keine internationalen Datenübermittlungen ohne angemessene Garantien durch."
+      ]
+     },
+     {
+      "heading": "5. Ihre Rechte",
+      "body": [
+       "Sie können Ihre Rechte auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung der Verarbeitung und Datenübertragbarkeit ausüben, indem Sie eine E-Mail an dm.reformasinnovamos@gmail.com senden, unter Angabe des geltend gemachten Rechts und mit beigefügtem Identitätsnachweis.",
+       "Sie haben zudem das Recht, eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einzureichen, falls Sie der Ansicht sind, dass die Datenverarbeitung gegen geltendes Recht verstößt."
+      ]
+     },
+     {
+      "heading": "6. Sicherheit",
+      "body": [
+       "Wir setzen angemessene technische und organisatorische Maßnahmen ein, um Ihre Daten vor unbefugtem Zugriff, Verlust oder Veränderung zu schützen, einschließlich Transportverschlüsselung und Zugriffskontrollen zur Anfragedatenbank."
+      ]
+     }
+    ]
+   },
+   "cookies": {
+    "title": "Cookie-Richtlinie",
+    "updated": "Stand: September 2026",
+    "blocks": [
+     {
+      "heading": "1. Was Cookies sind",
+      "body": [
+       "Ein Cookie ist eine kleine Textdatei, die beim Besuch einer Website in Ihrem Browser gespeichert wird. Sie ermöglicht es, Informationen über Ihren Besuch zu speichern, wie etwa Ihre bevorzugte Sprache oder Datenschutzeinstellungen."
+      ]
+     },
+     {
+      "heading": "2. Von uns verwendete Cookies",
+      "body": [
+       "Notwendige technische Cookies: Unverzichtbar für die Funktion der Website und zur Speicherung Ihrer Cookie-Einstellungen. Hierfür ist keine Einwilligung erforderlich.",
+       "Analyse-Cookies: Werden nur aktiviert, wenn Sie allen Cookies zustimmen. Sie helfen uns, in anonymisierter Form nachzuvollziehen, welche Seiten am häufigsten besucht werden, um unsere Inhalte zu verbessern.",
+       "Cookies von Drittanbietern: Wenn Sie die eingebettete Karte auf der Kontaktseite nutzen, kann Google eigene Cookies setzen. Die Karte wird erst nach Zustimmung zu den Cookies oder nach einer Interaktion geladen."
+      ]
+     },
+     {
+      "heading": "3. Verwaltung von Cookies",
+      "body": [
+       "Sie können Ihre Auswahl jederzeit ändern, indem Sie die Website-Daten in Ihrem Browser löschen, wodurch das Cookie-Banner erneut eingeblendet wird. Sie können Cookies zudem in den Datenschutzeinstellungen von Chrome, Safari, Firefox oder Edge blockieren oder löschen."
+      ]
+     }
+    ]
+   }
+  },
+  "meta": {
+   "home": {
+    "title": "Renovierungen in Torrevieja | DM Reformas Costa Blanca",
+    "description": "Unternehmen für Komplettsanierungen in Torrevieja: Küchen, Bäder, Fassaden, Dächer, Pools und Gewerbeflächen an der Costa Blanca. Kostenloses Angebot in 48 Std."
+   },
+   "services": {
+    "title": "Sanierungsleistungen in Torrevieja | DM Reformas",
+    "description": "Komplettsanierungen, Küchen, Bäder, Fassaden, Dächer, Pools, Malerarbeiten, Elektro und Gewerbeausbauten in Torrevieja und an der südlichen Costa Blanca."
+   },
+   "projects": {
+    "title": "Projekte und Vorher-Nachher-Sanierungen | DM Reformas",
+    "description": "Galerie realisierter Renovierungen in Torrevieja, Orihuela Costa und Guardamar: Wohnungen, Küchen, Bäder, Fassaden und Pools mit Vorher-Nachher-Fotos."
+   },
+   "about": {
+    "title": "Über uns | Sanierungsunternehmen in Torrevieja",
+    "description": "Lernen Sie DM Reformas kennen: Über 15 Jahre Erfahrung bei der Renovierung von Wohnungen und Gewerbe an der Costa Blanca – eigene Teams, Garantien und feste Fristen."
+   },
+   "testimonials": {
+    "title": "Kundenbewertungen | DM Reformas Torrevieja",
+    "description": "Verifizierte Erfahrungsberichte von Kunden von DM Reformas in Torrevieja, La Mata, Orihuela Costa, Guardamar und Ciudad Quesada."
+   },
+   "contact": {
+    "title": "Kontakt und kostenloses Angebot | DM Reformas Torrevieja",
+    "description": "Fordern Sie Ihr unverbindliches Sanierungsangebot in Torrevieja an. Formular, Telefon, WhatsApp und unser Einsatzgebiet an der Costa Blanca."
+   },
+   "legal": {
+    "title": "Impressum | DM Reformas",
+    "description": "Rechtliche Hinweise zur Website von DM Reformas, Sanierungs- und Bauunternehmen in Torrevieja, Alicante."
+   },
+   "privacy": {
+    "title": "Datenschutzerklärung | DM Reformas",
+    "description": "Wie wir Ihre personenbezogenen Daten gemäß DSGVO verarbeiten, wenn Sie ein Angebot bei DM Reformas anfordern."
+   },
+   "cookies": {
+    "title": "Cookie-Richtlinie | DM Reformas",
+    "description": "Informationen über die auf der Website von DM Reformas verwendeten Cookies und deren Verwaltung."
+   }
+  }
+ },
+ "extra": {
+  "homeHeroAlt": "Fachkraft von DM Reformas bei einer Renovierung in Torrevieja",
+  "homeAboutAlt": "Fachkraft von DM Reformas bei Bauarbeiten in Torrevieja",
+  "servicesHeroAlt": "Mitarbeiter von DM Reformas bei der Fassadensanierung an der Costa Blanca",
+  "projectsHeroAlt": "Von DM Reformas renovierte Terrasse mit Pergola",
+  "testimonialsHeroAlt": "Von DM Reformas renovierte Küche für einen Kunden in Orihuela Costa",
+  "contactHeroAlt": "Von DM Reformas renoviertes Badezimmer in Torrevieja",
+  "aboutHeroAlt": "Technisches Team von DM Reformas bei der Prüfung von Bauplänen",
+  "aboutSecondAlt": "Mitarbeiter von DM Reformas bei der Montage einer Konstruktion auf der Baustelle",
+  "whatsappShort": "Guten Tag DM Reformas, ich möchte gerne ein Angebot anfordern.",
+  "whatsappLong": "Guten Tag DM Reformas, ich möchte gerne ein Angebot für meine Renovierung anfordern."
+ },
+ "projects": {
+  "piso-torrevieja": {
+   "title": "Komplettsanierung einer 85 m² großen Wohnung",
+   "description": "Vollständige Neugestaltung des Grundrisses, neue Elektro- und Sanitärinstallation, durchgehender Feinsteinzeugboden und offener Wohn- und Kochbereich.",
+   "alt": "Vorher und Nachher einer kompletten Wohnungssanierung in Torrevieja"
+  },
+  "bano-la-mata": {
+   "title": "Komplettbad mit bodengleicher Dusche",
+   "description": "Austausch der Badewanne gegen eine Duschwanne, großformatige Fliesen, wandhängender Waschtisch und indirekte LED-Beleuchtung.",
+   "alt": "Vorher und Nachher einer Badsanierung in La Mata"
+  },
+  "cocina-orihuela": {
+   "title": "Offene Küche mit Kochinsel und Quarzarbeitsplatte",
+   "description": "Trennmauer entfernt, neue maßgefertigte Möbel, integrierte Elektrogeräte und modernisierte Lüftung.",
+   "alt": "Vorher und Nachher einer Küchenrenovierung in Orihuela Costa"
+  },
+  "fachada-guardamar": {
+   "title": "Fassadensanierung und Wärmedämmung",
+   "description": "Rissreparatur, Einlagenputz, Abdichtung und elastische, meersalzbeständige Farbe.",
+   "alt": "Vorher und Nachher einer Fassadensanierung in Guardamar"
+  },
+  "piscina-quesada": {
+   "title": "Sanierung von Pool und Sonnendeck",
+   "description": "Neue Auskleidung, rutschfeste Beckenumrandung aus Feinsteinzeug, LED-Beleuchtung und erneuertes Filtersystem.",
+   "alt": "Renovierter Pool in Ciudad Quesada"
+  },
+  "local-torrevieja": {
+   "title": "Ausbau einer Gewerbefläche",
+   "description": "Kompletter Ausbau mit Klimaanlage, Stromschienenbeleuchtung, neuer Schaufensterfront und Installationszertifikat.",
+   "alt": "Renovierte Gewerbefläche im Zentrum von Torrevieja"
+  },
+  "terraza-balcones": {
+   "title": "Terrassenerweiterung mit bioklimatischer Pergola",
+   "description": "Aluminiumkonstruktion, technische Terrassendielen für den Außenbereich, wetterfeste Steckdosen und genehmigtes Bauprojekt.",
+   "alt": "Erweiterte Terrasse mit Pergola in Los Balcones"
+  }
+ },
+ "services": {
+  "integral": "Wohnzimmer einer komplett sanierten Immobilie in Torrevieja",
+  "cocina": "Moderne renovierte Küche mit anthrazitfarbenen Möbeln",
+  "bano": "Renoviertes Badezimmer mit bodengleicher Dusche und großformatigen Fliesen",
+  "fachada": "Arbeiter bei der Sanierung einer Gebäudefassade an der Costa Blanca",
+  "tejado": "Neue Dachziegel werden auf das Dach einer Villa verlegt",
+  "piscina": "Renovierter privater Pool mit Feinsteinzeug-Umrandung",
+  "extension": "Techniker von DM Reformas bei der Prüfung von Ausbauplänen",
+  "pintura": "Fachkraft von DM Reformas bei der Arbeit auf der Baustelle",
+  "instalaciones": "Terrasse mit Aluminiumpergola und Außenbelag",
+  "local": "Renoviertes Ladenlokal bezugsfertig zur Eröffnung"
+ },
+ "testimonials": {
+  "t1": {
+   "type": "Komplettsanierung",
+   "text": "Sie haben unsere Wohnung von Grund auf innerhalb der versprochenen Frist renoviert. Klares Angebot, keine Überraschungen und jeden Tag eine saubere Baustelle. Das Team hat uns alles erklärt, bevor es umgesetzt wurde."
+  },
+  "t2": {
+   "type": "Küche und Bad",
+   "text": "Ich lebe zwischen England und Spanien und die Arbeiten wurden aus der Ferne mit wöchentlichen Fotos gesteuert. Bei meiner Ankunft war alles fertig und makellos sauber."
+  },
+  "t3": {
+   "type": "Fassade und Dach",
+   "text": "Wir hatten jahrelang Feuchtigkeitsprobleme. Sie haben die Ursache analysiert, das Dach abgedichtet und die Fassade saniert. Zwei Winter später gibt es keinen einzigen Fleck mehr."
+  },
+  "t4": {
+   "type": "Pool und Sonnendeck",
+   "text": "Sehr professionell und pünktlich. Der Pool sieht wie neu aus und sie haben uns beraten, wie wir den Energieverbrauch der Filteranlage senken können."
+  },
+  "t5": {
+   "type": "Badezimmer",
+   "text": "Tadellose Arbeit in 12 Tagen. Es gab nur eine kleine Verzögerung bei der Lieferung der Sanitärobjekte, die uns jedoch rechtzeitig mitgeteilt wurde."
+  },
+  "t6": {
+   "type": "Gewerbefläche",
+   "text": "Wir konnten das Geschäft zum geplanten Termin eröffnen. Sie haben die Genehmigung, die Klimatisierung und das Elektrozertifikat abgewickelt."
+  }
+ }
+}

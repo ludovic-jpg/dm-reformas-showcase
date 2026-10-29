@@ -3,14 +3,12 @@ import { Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { SiteLayout, PageHero } from "@/components/site/SiteLayout";
 import { ContactForm } from "@/components/site/ContactForm";
 import { company, images, serviceAreas } from "@/lib/site";
-import { dictionaries, type Locale } from "@/lib/i18n";
+import { dictionaries, type Locale, extraText } from "@/lib/i18n";
 
 export function ContactPage({ locale }: { locale: Locale }) {
   const t = dictionaries[locale];
   const waText =
-    locale === "es"
-      ? "Hola DM Reformas, me gustaría pedir un presupuesto."
-      : "Hello DM Reformas, I would like to request a quote.";
+    extraText(locale, "whatsappShort");
 
   return (
     <SiteLayout locale={locale} page="contact">
@@ -19,9 +17,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
         text={t.contact.heroText}
         image={images.bano}
         alt={
-          locale === "es"
-            ? "Baño reformado por DM Reformas en Torrevieja"
-            : "Bathroom renovated by DM Reformas in Torrevieja"
+          extraText(locale, "contactHeroAlt")
         }
       />
 

@@ -1,6 +1,11 @@
 import type { ReformType } from "./site";
+import noT from "./translations/no.json";
+import svT from "./translations/sv.json";
+import deT from "./translations/de.json";
+import ptT from "./translations/pt.json";
+import ruT from "./translations/ru.json";
 
-export const locales = ["es", "en"] as const;
+export const locales = ["es", "en", "de", "no", "sv", "pt", "ru"] as const;
 export type Locale = (typeof locales)[number];
 
 export type PageKey =
@@ -27,6 +32,61 @@ export const routePaths: Record<Locale, Record<PageKey, string>> = {
     privacy: "/politica-de-privacidad",
     cookies: "/politica-de-cookies",
   },
+  de: {
+    home: "/de",
+    services: "/de/services",
+    projects: "/de/projects",
+    about: "/de/about",
+    testimonials: "/de/testimonials",
+    contact: "/de/contact",
+    legal: "/de/legal-notice",
+    privacy: "/de/privacy-policy",
+    cookies: "/de/cookie-policy",
+  },
+  no: {
+    home: "/no",
+    services: "/no/services",
+    projects: "/no/projects",
+    about: "/no/about",
+    testimonials: "/no/testimonials",
+    contact: "/no/contact",
+    legal: "/no/legal-notice",
+    privacy: "/no/privacy-policy",
+    cookies: "/no/cookie-policy",
+  },
+  sv: {
+    home: "/sv",
+    services: "/sv/services",
+    projects: "/sv/projects",
+    about: "/sv/about",
+    testimonials: "/sv/testimonials",
+    contact: "/sv/contact",
+    legal: "/sv/legal-notice",
+    privacy: "/sv/privacy-policy",
+    cookies: "/sv/cookie-policy",
+  },
+  pt: {
+    home: "/pt",
+    services: "/pt/services",
+    projects: "/pt/projects",
+    about: "/pt/about",
+    testimonials: "/pt/testimonials",
+    contact: "/pt/contact",
+    legal: "/pt/legal-notice",
+    privacy: "/pt/privacy-policy",
+    cookies: "/pt/cookie-policy",
+  },
+  ru: {
+    home: "/ru",
+    services: "/ru/services",
+    projects: "/ru/projects",
+    about: "/ru/about",
+    testimonials: "/ru/testimonials",
+    contact: "/ru/contact",
+    legal: "/ru/legal-notice",
+    privacy: "/ru/privacy-policy",
+    cookies: "/ru/cookie-policy",
+  },
   en: {
     home: "/en",
     services: "/en/services",
@@ -40,7 +100,28 @@ export const routePaths: Record<Locale, Record<PageKey, string>> = {
   },
 };
 
-export const otherLocale = (locale: Locale): Locale => (locale === "es" ? "en" : "es");
+export const localeNames: Record<Locale, string> = {
+  es: "Español",
+  en: "English",
+  de: "Deutsch",
+  no: "Norsk",
+  sv: "Svenska",
+  pt: "Português",
+  ru: "Русский",
+};
+
+export const ogLocales: Record<Locale, string> = {
+  es: "es_ES",
+  en: "en_GB",
+  de: "de_DE",
+  no: "nb_NO",
+  sv: "sv_SE",
+  pt: "pt_PT",
+  ru: "ru_RU",
+};
+
+/** Translations generated for the extra languages (dictionary + content data). */
+export const extraTranslations = { no: noT, sv: svT, de: deT, pt: ptT, ru: ruT } as const;
 
 export const path = (locale: Locale, page: PageKey) => routePaths[locale][page];
 
@@ -1106,6 +1187,44 @@ export const dictionaries: Record<Locale, Dictionary> = {
       },
     },
   },
+  de: deT.dict as Dictionary,
+  no: noT.dict as Dictionary,
+  sv: svT.dict as Dictionary,
+  pt: ptT.dict as Dictionary,
+  ru: ruT.dict as Dictionary,
 };
 
 export const useDict = (locale: Locale) => dictionaries[locale];
+
+type ExtraTextKey = keyof (typeof noT)["extra"];
+
+const extraTextBase: Record<"es" | "en", Record<ExtraTextKey, string>> = {
+  es: {
+    homeHeroAlt: "Profesional de DM Reformas trabajando en una reforma en Torrevieja",
+    homeAboutAlt: "Profesional de DM Reformas trabajando en una obra en Torrevieja",
+    servicesHeroAlt: "Operarios de DM Reformas rehabilitando una fachada en la Costa Blanca",
+    projectsHeroAlt: "Terraza con pérgola reformada por DM Reformas",
+    testimonialsHeroAlt: "Cocina reformada por DM Reformas para un cliente en Orihuela Costa",
+    contactHeroAlt: "Baño reformado por DM Reformas en Torrevieja",
+    aboutHeroAlt: "Equipo técnico de DM Reformas revisando planos de un proyecto",
+    aboutSecondAlt: "Operario de DM Reformas montando una estructura en obra",
+    whatsappShort: "Hola DM Reformas, me gustaría pedir un presupuesto.",
+    whatsappLong: "Hola DM Reformas, me gustaría pedir un presupuesto para mi reforma.",
+  },
+  en: {
+    homeHeroAlt: "DM Reformas professional working on a renovation in Torrevieja",
+    homeAboutAlt: "DM Reformas professional working on a site in Torrevieja",
+    servicesHeroAlt: "DM Reformas workers restoring a facade on the Costa Blanca",
+    projectsHeroAlt: "Terrace with pergola renovated by DM Reformas",
+    testimonialsHeroAlt: "Kitchen renovated by DM Reformas for a client in Orihuela Costa",
+    contactHeroAlt: "Bathroom renovated by DM Reformas in Torrevieja",
+    aboutHeroAlt: "DM Reformas technical team reviewing project drawings",
+    aboutSecondAlt: "DM Reformas worker assembling a structure on site",
+    whatsappShort: "Hello DM Reformas, I would like to request a quote.",
+    whatsappLong: "Hello DM Reformas, I would like to request a quote for my renovation.",
+  },
+};
+
+/** Short page-level texts (image alts, WhatsApp messages) per language. */
+export const extraText = (locale: Locale, key: ExtraTextKey): string =>
+  locale === "es" || locale === "en" ? extraTextBase[locale][key] : extraTranslations[locale].extra[key];

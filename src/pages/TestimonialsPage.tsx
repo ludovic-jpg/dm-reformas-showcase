@@ -3,7 +3,7 @@ import { Quote, Star } from "lucide-react";
 import { GoogleIcon } from "@/components/site/GoogleIcon";
 import { SiteLayout, PageHero, CtaBanner } from "@/components/site/SiteLayout";
 import { company, images, testimonials } from "@/lib/site";
-import { contactPathWithType, dictionaries, type Locale } from "@/lib/i18n";
+import { contactPathWithType, dictionaries, type Locale, extraText } from "@/lib/i18n";
 
 export function TestimonialsPage({ locale }: { locale: Locale }) {
   const t = dictionaries[locale];
@@ -19,9 +19,7 @@ export function TestimonialsPage({ locale }: { locale: Locale }) {
         text={t.testimonials.heroText}
         image={images.cocina}
         alt={
-          locale === "es"
-            ? "Cocina reformada por DM Reformas para un cliente en Orihuela Costa"
-            : "Kitchen renovated by DM Reformas for a client in Orihuela Costa"
+          extraText(locale, "testimonialsHeroAlt")
         }
       />
 

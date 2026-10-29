@@ -4,7 +4,7 @@ import { CalendarClock, MapPin } from "lucide-react";
 import { SiteLayout, PageHero, CtaBanner } from "@/components/site/SiteLayout";
 import { BeforeAfter } from "@/components/site/BeforeAfter";
 import { company, images, projects } from "@/lib/site";
-import { contactPathWithType, dictionaries, type Locale } from "@/lib/i18n";
+import { contactPathWithType, dictionaries, type Locale, extraText } from "@/lib/i18n";
 import type { ReformType } from "@/lib/site";
 
 export function ProjectsPage({ locale }: { locale: Locale }) {
@@ -25,9 +25,7 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
         text={t.projects.heroText}
         image={images.terraza}
         alt={
-          locale === "es"
-            ? "Terraza con pérgola reformada por DM Reformas"
-            : "Terrace with pergola renovated by DM Reformas"
+          extraText(locale, "projectsHeroAlt")
         }
       />
 

@@ -19,6 +19,15 @@ import { Route as ProyectosRouteImport } from './routes/proyectos'
 import { Route as ServiciosRouteImport } from './routes/servicios'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TestimoniosRouteImport } from './routes/testimonios'
+import { Route as DeIndexRouteImport } from './routes/de.index'
+import { Route as DeAboutRouteImport } from './routes/de.about'
+import { Route as DeContactRouteImport } from './routes/de.contact'
+import { Route as DeCookiePolicyRouteImport } from './routes/de.cookie-policy'
+import { Route as DeLegalNoticeRouteImport } from './routes/de.legal-notice'
+import { Route as DePrivacyPolicyRouteImport } from './routes/de.privacy-policy'
+import { Route as DeProjectsRouteImport } from './routes/de.projects'
+import { Route as DeServicesRouteImport } from './routes/de.services'
+import { Route as DeTestimonialsRouteImport } from './routes/de.testimonials'
 import { Route as EnIndexRouteImport } from './routes/en.index'
 import { Route as EnAboutRouteImport } from './routes/en.about'
 import { Route as EnContactRouteImport } from './routes/en.contact'
@@ -28,6 +37,42 @@ import { Route as EnPrivacyPolicyRouteImport } from './routes/en.privacy-policy'
 import { Route as EnProjectsRouteImport } from './routes/en.projects'
 import { Route as EnServicesRouteImport } from './routes/en.services'
 import { Route as EnTestimonialsRouteImport } from './routes/en.testimonials'
+import { Route as NoIndexRouteImport } from './routes/no.index'
+import { Route as NoAboutRouteImport } from './routes/no.about'
+import { Route as NoContactRouteImport } from './routes/no.contact'
+import { Route as NoCookiePolicyRouteImport } from './routes/no.cookie-policy'
+import { Route as NoLegalNoticeRouteImport } from './routes/no.legal-notice'
+import { Route as NoPrivacyPolicyRouteImport } from './routes/no.privacy-policy'
+import { Route as NoProjectsRouteImport } from './routes/no.projects'
+import { Route as NoServicesRouteImport } from './routes/no.services'
+import { Route as NoTestimonialsRouteImport } from './routes/no.testimonials'
+import { Route as PtIndexRouteImport } from './routes/pt.index'
+import { Route as PtAboutRouteImport } from './routes/pt.about'
+import { Route as PtContactRouteImport } from './routes/pt.contact'
+import { Route as PtCookiePolicyRouteImport } from './routes/pt.cookie-policy'
+import { Route as PtLegalNoticeRouteImport } from './routes/pt.legal-notice'
+import { Route as PtPrivacyPolicyRouteImport } from './routes/pt.privacy-policy'
+import { Route as PtProjectsRouteImport } from './routes/pt.projects'
+import { Route as PtServicesRouteImport } from './routes/pt.services'
+import { Route as PtTestimonialsRouteImport } from './routes/pt.testimonials'
+import { Route as RuIndexRouteImport } from './routes/ru.index'
+import { Route as RuAboutRouteImport } from './routes/ru.about'
+import { Route as RuContactRouteImport } from './routes/ru.contact'
+import { Route as RuCookiePolicyRouteImport } from './routes/ru.cookie-policy'
+import { Route as RuLegalNoticeRouteImport } from './routes/ru.legal-notice'
+import { Route as RuPrivacyPolicyRouteImport } from './routes/ru.privacy-policy'
+import { Route as RuProjectsRouteImport } from './routes/ru.projects'
+import { Route as RuServicesRouteImport } from './routes/ru.services'
+import { Route as RuTestimonialsRouteImport } from './routes/ru.testimonials'
+import { Route as SvIndexRouteImport } from './routes/sv.index'
+import { Route as SvAboutRouteImport } from './routes/sv.about'
+import { Route as SvContactRouteImport } from './routes/sv.contact'
+import { Route as SvCookiePolicyRouteImport } from './routes/sv.cookie-policy'
+import { Route as SvLegalNoticeRouteImport } from './routes/sv.legal-notice'
+import { Route as SvPrivacyPolicyRouteImport } from './routes/sv.privacy-policy'
+import { Route as SvProjectsRouteImport } from './routes/sv.projects'
+import { Route as SvServicesRouteImport } from './routes/sv.services'
+import { Route as SvTestimonialsRouteImport } from './routes/sv.testimonials'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -79,6 +124,51 @@ const TestimoniosRoute = TestimoniosRouteImport.update({
   path: '/testimonios',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DeIndexRoute = DeIndexRouteImport.update({
+  id: '/de/',
+  path: '/de/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeAboutRoute = DeAboutRouteImport.update({
+  id: '/de/about',
+  path: '/de/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeContactRoute = DeContactRouteImport.update({
+  id: '/de/contact',
+  path: '/de/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeCookiePolicyRoute = DeCookiePolicyRouteImport.update({
+  id: '/de/cookie-policy',
+  path: '/de/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeLegalNoticeRoute = DeLegalNoticeRouteImport.update({
+  id: '/de/legal-notice',
+  path: '/de/legal-notice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DePrivacyPolicyRoute = DePrivacyPolicyRouteImport.update({
+  id: '/de/privacy-policy',
+  path: '/de/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeProjectsRoute = DeProjectsRouteImport.update({
+  id: '/de/projects',
+  path: '/de/projects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeServicesRoute = DeServicesRouteImport.update({
+  id: '/de/services',
+  path: '/de/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DeTestimonialsRoute = DeTestimonialsRouteImport.update({
+  id: '/de/testimonials',
+  path: '/de/testimonials',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EnIndexRoute = EnIndexRouteImport.update({
   id: '/en/',
   path: '/en/',
@@ -124,6 +214,186 @@ const EnTestimonialsRoute = EnTestimonialsRouteImport.update({
   path: '/en/testimonials',
   getParentRoute: () => rootRouteImport,
 } as any)
+const NoIndexRoute = NoIndexRouteImport.update({
+  id: '/no/',
+  path: '/no/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoAboutRoute = NoAboutRouteImport.update({
+  id: '/no/about',
+  path: '/no/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoContactRoute = NoContactRouteImport.update({
+  id: '/no/contact',
+  path: '/no/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoCookiePolicyRoute = NoCookiePolicyRouteImport.update({
+  id: '/no/cookie-policy',
+  path: '/no/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoLegalNoticeRoute = NoLegalNoticeRouteImport.update({
+  id: '/no/legal-notice',
+  path: '/no/legal-notice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoPrivacyPolicyRoute = NoPrivacyPolicyRouteImport.update({
+  id: '/no/privacy-policy',
+  path: '/no/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoProjectsRoute = NoProjectsRouteImport.update({
+  id: '/no/projects',
+  path: '/no/projects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoServicesRoute = NoServicesRouteImport.update({
+  id: '/no/services',
+  path: '/no/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NoTestimonialsRoute = NoTestimonialsRouteImport.update({
+  id: '/no/testimonials',
+  path: '/no/testimonials',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtIndexRoute = PtIndexRouteImport.update({
+  id: '/pt/',
+  path: '/pt/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtAboutRoute = PtAboutRouteImport.update({
+  id: '/pt/about',
+  path: '/pt/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtContactRoute = PtContactRouteImport.update({
+  id: '/pt/contact',
+  path: '/pt/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtCookiePolicyRoute = PtCookiePolicyRouteImport.update({
+  id: '/pt/cookie-policy',
+  path: '/pt/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtLegalNoticeRoute = PtLegalNoticeRouteImport.update({
+  id: '/pt/legal-notice',
+  path: '/pt/legal-notice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtPrivacyPolicyRoute = PtPrivacyPolicyRouteImport.update({
+  id: '/pt/privacy-policy',
+  path: '/pt/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtProjectsRoute = PtProjectsRouteImport.update({
+  id: '/pt/projects',
+  path: '/pt/projects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtServicesRoute = PtServicesRouteImport.update({
+  id: '/pt/services',
+  path: '/pt/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PtTestimonialsRoute = PtTestimonialsRouteImport.update({
+  id: '/pt/testimonials',
+  path: '/pt/testimonials',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuIndexRoute = RuIndexRouteImport.update({
+  id: '/ru/',
+  path: '/ru/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuAboutRoute = RuAboutRouteImport.update({
+  id: '/ru/about',
+  path: '/ru/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuContactRoute = RuContactRouteImport.update({
+  id: '/ru/contact',
+  path: '/ru/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuCookiePolicyRoute = RuCookiePolicyRouteImport.update({
+  id: '/ru/cookie-policy',
+  path: '/ru/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuLegalNoticeRoute = RuLegalNoticeRouteImport.update({
+  id: '/ru/legal-notice',
+  path: '/ru/legal-notice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuPrivacyPolicyRoute = RuPrivacyPolicyRouteImport.update({
+  id: '/ru/privacy-policy',
+  path: '/ru/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuProjectsRoute = RuProjectsRouteImport.update({
+  id: '/ru/projects',
+  path: '/ru/projects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuServicesRoute = RuServicesRouteImport.update({
+  id: '/ru/services',
+  path: '/ru/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RuTestimonialsRoute = RuTestimonialsRouteImport.update({
+  id: '/ru/testimonials',
+  path: '/ru/testimonials',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvIndexRoute = SvIndexRouteImport.update({
+  id: '/sv/',
+  path: '/sv/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvAboutRoute = SvAboutRouteImport.update({
+  id: '/sv/about',
+  path: '/sv/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvContactRoute = SvContactRouteImport.update({
+  id: '/sv/contact',
+  path: '/sv/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvCookiePolicyRoute = SvCookiePolicyRouteImport.update({
+  id: '/sv/cookie-policy',
+  path: '/sv/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvLegalNoticeRoute = SvLegalNoticeRouteImport.update({
+  id: '/sv/legal-notice',
+  path: '/sv/legal-notice',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvPrivacyPolicyRoute = SvPrivacyPolicyRouteImport.update({
+  id: '/sv/privacy-policy',
+  path: '/sv/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvProjectsRoute = SvProjectsRouteImport.update({
+  id: '/sv/projects',
+  path: '/sv/projects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvServicesRoute = SvServicesRouteImport.update({
+  id: '/sv/services',
+  path: '/sv/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SvTestimonialsRoute = SvTestimonialsRouteImport.update({
+  id: '/sv/testimonials',
+  path: '/sv/testimonials',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -136,6 +406,14 @@ export interface FileRoutesByFullPath {
   '/servicios': typeof ServiciosRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/testimonios': typeof TestimoniosRoute
+  '/de/about': typeof DeAboutRoute
+  '/de/contact': typeof DeContactRoute
+  '/de/cookie-policy': typeof DeCookiePolicyRoute
+  '/de/legal-notice': typeof DeLegalNoticeRoute
+  '/de/privacy-policy': typeof DePrivacyPolicyRoute
+  '/de/projects': typeof DeProjectsRoute
+  '/de/services': typeof DeServicesRoute
+  '/de/testimonials': typeof DeTestimonialsRoute
   '/en/about': typeof EnAboutRoute
   '/en/contact': typeof EnContactRoute
   '/en/cookie-policy': typeof EnCookiePolicyRoute
@@ -144,7 +422,44 @@ export interface FileRoutesByFullPath {
   '/en/projects': typeof EnProjectsRoute
   '/en/services': typeof EnServicesRoute
   '/en/testimonials': typeof EnTestimonialsRoute
+  '/no/about': typeof NoAboutRoute
+  '/no/contact': typeof NoContactRoute
+  '/no/cookie-policy': typeof NoCookiePolicyRoute
+  '/no/legal-notice': typeof NoLegalNoticeRoute
+  '/no/privacy-policy': typeof NoPrivacyPolicyRoute
+  '/no/projects': typeof NoProjectsRoute
+  '/no/services': typeof NoServicesRoute
+  '/no/testimonials': typeof NoTestimonialsRoute
+  '/pt/about': typeof PtAboutRoute
+  '/pt/contact': typeof PtContactRoute
+  '/pt/cookie-policy': typeof PtCookiePolicyRoute
+  '/pt/legal-notice': typeof PtLegalNoticeRoute
+  '/pt/privacy-policy': typeof PtPrivacyPolicyRoute
+  '/pt/projects': typeof PtProjectsRoute
+  '/pt/services': typeof PtServicesRoute
+  '/pt/testimonials': typeof PtTestimonialsRoute
+  '/ru/about': typeof RuAboutRoute
+  '/ru/contact': typeof RuContactRoute
+  '/ru/cookie-policy': typeof RuCookiePolicyRoute
+  '/ru/legal-notice': typeof RuLegalNoticeRoute
+  '/ru/privacy-policy': typeof RuPrivacyPolicyRoute
+  '/ru/projects': typeof RuProjectsRoute
+  '/ru/services': typeof RuServicesRoute
+  '/ru/testimonials': typeof RuTestimonialsRoute
+  '/sv/about': typeof SvAboutRoute
+  '/sv/contact': typeof SvContactRoute
+  '/sv/cookie-policy': typeof SvCookiePolicyRoute
+  '/sv/legal-notice': typeof SvLegalNoticeRoute
+  '/sv/privacy-policy': typeof SvPrivacyPolicyRoute
+  '/sv/projects': typeof SvProjectsRoute
+  '/sv/services': typeof SvServicesRoute
+  '/sv/testimonials': typeof SvTestimonialsRoute
+  '/de/': typeof DeIndexRoute
   '/en/': typeof EnIndexRoute
+  '/no/': typeof NoIndexRoute
+  '/pt/': typeof PtIndexRoute
+  '/ru/': typeof RuIndexRoute
+  '/sv/': typeof SvIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -157,6 +472,14 @@ export interface FileRoutesByTo {
   '/servicios': typeof ServiciosRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/testimonios': typeof TestimoniosRoute
+  '/de/about': typeof DeAboutRoute
+  '/de/contact': typeof DeContactRoute
+  '/de/cookie-policy': typeof DeCookiePolicyRoute
+  '/de/legal-notice': typeof DeLegalNoticeRoute
+  '/de/privacy-policy': typeof DePrivacyPolicyRoute
+  '/de/projects': typeof DeProjectsRoute
+  '/de/services': typeof DeServicesRoute
+  '/de/testimonials': typeof DeTestimonialsRoute
   '/en/about': typeof EnAboutRoute
   '/en/contact': typeof EnContactRoute
   '/en/cookie-policy': typeof EnCookiePolicyRoute
@@ -165,7 +488,44 @@ export interface FileRoutesByTo {
   '/en/projects': typeof EnProjectsRoute
   '/en/services': typeof EnServicesRoute
   '/en/testimonials': typeof EnTestimonialsRoute
+  '/no/about': typeof NoAboutRoute
+  '/no/contact': typeof NoContactRoute
+  '/no/cookie-policy': typeof NoCookiePolicyRoute
+  '/no/legal-notice': typeof NoLegalNoticeRoute
+  '/no/privacy-policy': typeof NoPrivacyPolicyRoute
+  '/no/projects': typeof NoProjectsRoute
+  '/no/services': typeof NoServicesRoute
+  '/no/testimonials': typeof NoTestimonialsRoute
+  '/pt/about': typeof PtAboutRoute
+  '/pt/contact': typeof PtContactRoute
+  '/pt/cookie-policy': typeof PtCookiePolicyRoute
+  '/pt/legal-notice': typeof PtLegalNoticeRoute
+  '/pt/privacy-policy': typeof PtPrivacyPolicyRoute
+  '/pt/projects': typeof PtProjectsRoute
+  '/pt/services': typeof PtServicesRoute
+  '/pt/testimonials': typeof PtTestimonialsRoute
+  '/ru/about': typeof RuAboutRoute
+  '/ru/contact': typeof RuContactRoute
+  '/ru/cookie-policy': typeof RuCookiePolicyRoute
+  '/ru/legal-notice': typeof RuLegalNoticeRoute
+  '/ru/privacy-policy': typeof RuPrivacyPolicyRoute
+  '/ru/projects': typeof RuProjectsRoute
+  '/ru/services': typeof RuServicesRoute
+  '/ru/testimonials': typeof RuTestimonialsRoute
+  '/sv/about': typeof SvAboutRoute
+  '/sv/contact': typeof SvContactRoute
+  '/sv/cookie-policy': typeof SvCookiePolicyRoute
+  '/sv/legal-notice': typeof SvLegalNoticeRoute
+  '/sv/privacy-policy': typeof SvPrivacyPolicyRoute
+  '/sv/projects': typeof SvProjectsRoute
+  '/sv/services': typeof SvServicesRoute
+  '/sv/testimonials': typeof SvTestimonialsRoute
+  '/de': typeof DeIndexRoute
   '/en': typeof EnIndexRoute
+  '/no': typeof NoIndexRoute
+  '/pt': typeof PtIndexRoute
+  '/ru': typeof RuIndexRoute
+  '/sv': typeof SvIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -179,6 +539,14 @@ export interface FileRoutesById {
   '/servicios': typeof ServiciosRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/testimonios': typeof TestimoniosRoute
+  '/de/about': typeof DeAboutRoute
+  '/de/contact': typeof DeContactRoute
+  '/de/cookie-policy': typeof DeCookiePolicyRoute
+  '/de/legal-notice': typeof DeLegalNoticeRoute
+  '/de/privacy-policy': typeof DePrivacyPolicyRoute
+  '/de/projects': typeof DeProjectsRoute
+  '/de/services': typeof DeServicesRoute
+  '/de/testimonials': typeof DeTestimonialsRoute
   '/en/about': typeof EnAboutRoute
   '/en/contact': typeof EnContactRoute
   '/en/cookie-policy': typeof EnCookiePolicyRoute
@@ -187,7 +555,44 @@ export interface FileRoutesById {
   '/en/projects': typeof EnProjectsRoute
   '/en/services': typeof EnServicesRoute
   '/en/testimonials': typeof EnTestimonialsRoute
+  '/no/about': typeof NoAboutRoute
+  '/no/contact': typeof NoContactRoute
+  '/no/cookie-policy': typeof NoCookiePolicyRoute
+  '/no/legal-notice': typeof NoLegalNoticeRoute
+  '/no/privacy-policy': typeof NoPrivacyPolicyRoute
+  '/no/projects': typeof NoProjectsRoute
+  '/no/services': typeof NoServicesRoute
+  '/no/testimonials': typeof NoTestimonialsRoute
+  '/pt/about': typeof PtAboutRoute
+  '/pt/contact': typeof PtContactRoute
+  '/pt/cookie-policy': typeof PtCookiePolicyRoute
+  '/pt/legal-notice': typeof PtLegalNoticeRoute
+  '/pt/privacy-policy': typeof PtPrivacyPolicyRoute
+  '/pt/projects': typeof PtProjectsRoute
+  '/pt/services': typeof PtServicesRoute
+  '/pt/testimonials': typeof PtTestimonialsRoute
+  '/ru/about': typeof RuAboutRoute
+  '/ru/contact': typeof RuContactRoute
+  '/ru/cookie-policy': typeof RuCookiePolicyRoute
+  '/ru/legal-notice': typeof RuLegalNoticeRoute
+  '/ru/privacy-policy': typeof RuPrivacyPolicyRoute
+  '/ru/projects': typeof RuProjectsRoute
+  '/ru/services': typeof RuServicesRoute
+  '/ru/testimonials': typeof RuTestimonialsRoute
+  '/sv/about': typeof SvAboutRoute
+  '/sv/contact': typeof SvContactRoute
+  '/sv/cookie-policy': typeof SvCookiePolicyRoute
+  '/sv/legal-notice': typeof SvLegalNoticeRoute
+  '/sv/privacy-policy': typeof SvPrivacyPolicyRoute
+  '/sv/projects': typeof SvProjectsRoute
+  '/sv/services': typeof SvServicesRoute
+  '/sv/testimonials': typeof SvTestimonialsRoute
+  '/de/': typeof DeIndexRoute
   '/en/': typeof EnIndexRoute
+  '/no/': typeof NoIndexRoute
+  '/pt/': typeof PtIndexRoute
+  '/ru/': typeof RuIndexRoute
+  '/sv/': typeof SvIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -202,6 +607,14 @@ export interface FileRouteTypes {
     | '/servicios'
     | '/sitemap.xml'
     | '/testimonios'
+    | '/de/about'
+    | '/de/contact'
+    | '/de/cookie-policy'
+    | '/de/legal-notice'
+    | '/de/privacy-policy'
+    | '/de/projects'
+    | '/de/services'
+    | '/de/testimonials'
     | '/en/about'
     | '/en/contact'
     | '/en/cookie-policy'
@@ -210,7 +623,44 @@ export interface FileRouteTypes {
     | '/en/projects'
     | '/en/services'
     | '/en/testimonials'
+    | '/no/about'
+    | '/no/contact'
+    | '/no/cookie-policy'
+    | '/no/legal-notice'
+    | '/no/privacy-policy'
+    | '/no/projects'
+    | '/no/services'
+    | '/no/testimonials'
+    | '/pt/about'
+    | '/pt/contact'
+    | '/pt/cookie-policy'
+    | '/pt/legal-notice'
+    | '/pt/privacy-policy'
+    | '/pt/projects'
+    | '/pt/services'
+    | '/pt/testimonials'
+    | '/ru/about'
+    | '/ru/contact'
+    | '/ru/cookie-policy'
+    | '/ru/legal-notice'
+    | '/ru/privacy-policy'
+    | '/ru/projects'
+    | '/ru/services'
+    | '/ru/testimonials'
+    | '/sv/about'
+    | '/sv/contact'
+    | '/sv/cookie-policy'
+    | '/sv/legal-notice'
+    | '/sv/privacy-policy'
+    | '/sv/projects'
+    | '/sv/services'
+    | '/sv/testimonials'
+    | '/de/'
     | '/en/'
+    | '/no/'
+    | '/pt/'
+    | '/ru/'
+    | '/sv/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -223,6 +673,14 @@ export interface FileRouteTypes {
     | '/servicios'
     | '/sitemap.xml'
     | '/testimonios'
+    | '/de/about'
+    | '/de/contact'
+    | '/de/cookie-policy'
+    | '/de/legal-notice'
+    | '/de/privacy-policy'
+    | '/de/projects'
+    | '/de/services'
+    | '/de/testimonials'
     | '/en/about'
     | '/en/contact'
     | '/en/cookie-policy'
@@ -231,7 +689,44 @@ export interface FileRouteTypes {
     | '/en/projects'
     | '/en/services'
     | '/en/testimonials'
+    | '/no/about'
+    | '/no/contact'
+    | '/no/cookie-policy'
+    | '/no/legal-notice'
+    | '/no/privacy-policy'
+    | '/no/projects'
+    | '/no/services'
+    | '/no/testimonials'
+    | '/pt/about'
+    | '/pt/contact'
+    | '/pt/cookie-policy'
+    | '/pt/legal-notice'
+    | '/pt/privacy-policy'
+    | '/pt/projects'
+    | '/pt/services'
+    | '/pt/testimonials'
+    | '/ru/about'
+    | '/ru/contact'
+    | '/ru/cookie-policy'
+    | '/ru/legal-notice'
+    | '/ru/privacy-policy'
+    | '/ru/projects'
+    | '/ru/services'
+    | '/ru/testimonials'
+    | '/sv/about'
+    | '/sv/contact'
+    | '/sv/cookie-policy'
+    | '/sv/legal-notice'
+    | '/sv/privacy-policy'
+    | '/sv/projects'
+    | '/sv/services'
+    | '/sv/testimonials'
+    | '/de'
     | '/en'
+    | '/no'
+    | '/pt'
+    | '/ru'
+    | '/sv'
   id:
     | '__root__'
     | '/'
@@ -244,6 +739,14 @@ export interface FileRouteTypes {
     | '/servicios'
     | '/sitemap.xml'
     | '/testimonios'
+    | '/de/about'
+    | '/de/contact'
+    | '/de/cookie-policy'
+    | '/de/legal-notice'
+    | '/de/privacy-policy'
+    | '/de/projects'
+    | '/de/services'
+    | '/de/testimonials'
     | '/en/about'
     | '/en/contact'
     | '/en/cookie-policy'
@@ -252,7 +755,44 @@ export interface FileRouteTypes {
     | '/en/projects'
     | '/en/services'
     | '/en/testimonials'
+    | '/no/about'
+    | '/no/contact'
+    | '/no/cookie-policy'
+    | '/no/legal-notice'
+    | '/no/privacy-policy'
+    | '/no/projects'
+    | '/no/services'
+    | '/no/testimonials'
+    | '/pt/about'
+    | '/pt/contact'
+    | '/pt/cookie-policy'
+    | '/pt/legal-notice'
+    | '/pt/privacy-policy'
+    | '/pt/projects'
+    | '/pt/services'
+    | '/pt/testimonials'
+    | '/ru/about'
+    | '/ru/contact'
+    | '/ru/cookie-policy'
+    | '/ru/legal-notice'
+    | '/ru/privacy-policy'
+    | '/ru/projects'
+    | '/ru/services'
+    | '/ru/testimonials'
+    | '/sv/about'
+    | '/sv/contact'
+    | '/sv/cookie-policy'
+    | '/sv/legal-notice'
+    | '/sv/privacy-policy'
+    | '/sv/projects'
+    | '/sv/services'
+    | '/sv/testimonials'
+    | '/de/'
     | '/en/'
+    | '/no/'
+    | '/pt/'
+    | '/ru/'
+    | '/sv/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -266,6 +806,14 @@ export interface RootRouteChildren {
   ServiciosRoute: typeof ServiciosRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TestimoniosRoute: typeof TestimoniosRoute
+  DeAboutRoute: typeof DeAboutRoute
+  DeContactRoute: typeof DeContactRoute
+  DeCookiePolicyRoute: typeof DeCookiePolicyRoute
+  DeLegalNoticeRoute: typeof DeLegalNoticeRoute
+  DePrivacyPolicyRoute: typeof DePrivacyPolicyRoute
+  DeProjectsRoute: typeof DeProjectsRoute
+  DeServicesRoute: typeof DeServicesRoute
+  DeTestimonialsRoute: typeof DeTestimonialsRoute
   EnAboutRoute: typeof EnAboutRoute
   EnContactRoute: typeof EnContactRoute
   EnCookiePolicyRoute: typeof EnCookiePolicyRoute
@@ -274,7 +822,44 @@ export interface RootRouteChildren {
   EnProjectsRoute: typeof EnProjectsRoute
   EnServicesRoute: typeof EnServicesRoute
   EnTestimonialsRoute: typeof EnTestimonialsRoute
+  NoAboutRoute: typeof NoAboutRoute
+  NoContactRoute: typeof NoContactRoute
+  NoCookiePolicyRoute: typeof NoCookiePolicyRoute
+  NoLegalNoticeRoute: typeof NoLegalNoticeRoute
+  NoPrivacyPolicyRoute: typeof NoPrivacyPolicyRoute
+  NoProjectsRoute: typeof NoProjectsRoute
+  NoServicesRoute: typeof NoServicesRoute
+  NoTestimonialsRoute: typeof NoTestimonialsRoute
+  PtAboutRoute: typeof PtAboutRoute
+  PtContactRoute: typeof PtContactRoute
+  PtCookiePolicyRoute: typeof PtCookiePolicyRoute
+  PtLegalNoticeRoute: typeof PtLegalNoticeRoute
+  PtPrivacyPolicyRoute: typeof PtPrivacyPolicyRoute
+  PtProjectsRoute: typeof PtProjectsRoute
+  PtServicesRoute: typeof PtServicesRoute
+  PtTestimonialsRoute: typeof PtTestimonialsRoute
+  RuAboutRoute: typeof RuAboutRoute
+  RuContactRoute: typeof RuContactRoute
+  RuCookiePolicyRoute: typeof RuCookiePolicyRoute
+  RuLegalNoticeRoute: typeof RuLegalNoticeRoute
+  RuPrivacyPolicyRoute: typeof RuPrivacyPolicyRoute
+  RuProjectsRoute: typeof RuProjectsRoute
+  RuServicesRoute: typeof RuServicesRoute
+  RuTestimonialsRoute: typeof RuTestimonialsRoute
+  SvAboutRoute: typeof SvAboutRoute
+  SvContactRoute: typeof SvContactRoute
+  SvCookiePolicyRoute: typeof SvCookiePolicyRoute
+  SvLegalNoticeRoute: typeof SvLegalNoticeRoute
+  SvPrivacyPolicyRoute: typeof SvPrivacyPolicyRoute
+  SvProjectsRoute: typeof SvProjectsRoute
+  SvServicesRoute: typeof SvServicesRoute
+  SvTestimonialsRoute: typeof SvTestimonialsRoute
+  DeIndexRoute: typeof DeIndexRoute
   EnIndexRoute: typeof EnIndexRoute
+  NoIndexRoute: typeof NoIndexRoute
+  PtIndexRoute: typeof PtIndexRoute
+  RuIndexRoute: typeof RuIndexRoute
+  SvIndexRoute: typeof SvIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -349,6 +934,69 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TestimoniosRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/de/': {
+      id: '/de/'
+      path: '/de'
+      fullPath: '/de/'
+      preLoaderRoute: typeof DeIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/about': {
+      id: '/de/about'
+      path: '/de/about'
+      fullPath: '/de/about'
+      preLoaderRoute: typeof DeAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/contact': {
+      id: '/de/contact'
+      path: '/de/contact'
+      fullPath: '/de/contact'
+      preLoaderRoute: typeof DeContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/cookie-policy': {
+      id: '/de/cookie-policy'
+      path: '/de/cookie-policy'
+      fullPath: '/de/cookie-policy'
+      preLoaderRoute: typeof DeCookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/legal-notice': {
+      id: '/de/legal-notice'
+      path: '/de/legal-notice'
+      fullPath: '/de/legal-notice'
+      preLoaderRoute: typeof DeLegalNoticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/privacy-policy': {
+      id: '/de/privacy-policy'
+      path: '/de/privacy-policy'
+      fullPath: '/de/privacy-policy'
+      preLoaderRoute: typeof DePrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/projects': {
+      id: '/de/projects'
+      path: '/de/projects'
+      fullPath: '/de/projects'
+      preLoaderRoute: typeof DeProjectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/services': {
+      id: '/de/services'
+      path: '/de/services'
+      fullPath: '/de/services'
+      preLoaderRoute: typeof DeServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/de/testimonials': {
+      id: '/de/testimonials'
+      path: '/de/testimonials'
+      fullPath: '/de/testimonials'
+      preLoaderRoute: typeof DeTestimonialsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/en/': {
       id: '/en/'
       path: '/en'
@@ -412,6 +1060,258 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EnTestimonialsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/no/': {
+      id: '/no/'
+      path: '/no'
+      fullPath: '/no/'
+      preLoaderRoute: typeof NoIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/about': {
+      id: '/no/about'
+      path: '/no/about'
+      fullPath: '/no/about'
+      preLoaderRoute: typeof NoAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/contact': {
+      id: '/no/contact'
+      path: '/no/contact'
+      fullPath: '/no/contact'
+      preLoaderRoute: typeof NoContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/cookie-policy': {
+      id: '/no/cookie-policy'
+      path: '/no/cookie-policy'
+      fullPath: '/no/cookie-policy'
+      preLoaderRoute: typeof NoCookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/legal-notice': {
+      id: '/no/legal-notice'
+      path: '/no/legal-notice'
+      fullPath: '/no/legal-notice'
+      preLoaderRoute: typeof NoLegalNoticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/privacy-policy': {
+      id: '/no/privacy-policy'
+      path: '/no/privacy-policy'
+      fullPath: '/no/privacy-policy'
+      preLoaderRoute: typeof NoPrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/projects': {
+      id: '/no/projects'
+      path: '/no/projects'
+      fullPath: '/no/projects'
+      preLoaderRoute: typeof NoProjectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/services': {
+      id: '/no/services'
+      path: '/no/services'
+      fullPath: '/no/services'
+      preLoaderRoute: typeof NoServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/no/testimonials': {
+      id: '/no/testimonials'
+      path: '/no/testimonials'
+      fullPath: '/no/testimonials'
+      preLoaderRoute: typeof NoTestimonialsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/': {
+      id: '/pt/'
+      path: '/pt'
+      fullPath: '/pt/'
+      preLoaderRoute: typeof PtIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/about': {
+      id: '/pt/about'
+      path: '/pt/about'
+      fullPath: '/pt/about'
+      preLoaderRoute: typeof PtAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/contact': {
+      id: '/pt/contact'
+      path: '/pt/contact'
+      fullPath: '/pt/contact'
+      preLoaderRoute: typeof PtContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/cookie-policy': {
+      id: '/pt/cookie-policy'
+      path: '/pt/cookie-policy'
+      fullPath: '/pt/cookie-policy'
+      preLoaderRoute: typeof PtCookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/legal-notice': {
+      id: '/pt/legal-notice'
+      path: '/pt/legal-notice'
+      fullPath: '/pt/legal-notice'
+      preLoaderRoute: typeof PtLegalNoticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/privacy-policy': {
+      id: '/pt/privacy-policy'
+      path: '/pt/privacy-policy'
+      fullPath: '/pt/privacy-policy'
+      preLoaderRoute: typeof PtPrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/projects': {
+      id: '/pt/projects'
+      path: '/pt/projects'
+      fullPath: '/pt/projects'
+      preLoaderRoute: typeof PtProjectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/services': {
+      id: '/pt/services'
+      path: '/pt/services'
+      fullPath: '/pt/services'
+      preLoaderRoute: typeof PtServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pt/testimonials': {
+      id: '/pt/testimonials'
+      path: '/pt/testimonials'
+      fullPath: '/pt/testimonials'
+      preLoaderRoute: typeof PtTestimonialsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/': {
+      id: '/ru/'
+      path: '/ru'
+      fullPath: '/ru/'
+      preLoaderRoute: typeof RuIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/about': {
+      id: '/ru/about'
+      path: '/ru/about'
+      fullPath: '/ru/about'
+      preLoaderRoute: typeof RuAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/contact': {
+      id: '/ru/contact'
+      path: '/ru/contact'
+      fullPath: '/ru/contact'
+      preLoaderRoute: typeof RuContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/cookie-policy': {
+      id: '/ru/cookie-policy'
+      path: '/ru/cookie-policy'
+      fullPath: '/ru/cookie-policy'
+      preLoaderRoute: typeof RuCookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/legal-notice': {
+      id: '/ru/legal-notice'
+      path: '/ru/legal-notice'
+      fullPath: '/ru/legal-notice'
+      preLoaderRoute: typeof RuLegalNoticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/privacy-policy': {
+      id: '/ru/privacy-policy'
+      path: '/ru/privacy-policy'
+      fullPath: '/ru/privacy-policy'
+      preLoaderRoute: typeof RuPrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/projects': {
+      id: '/ru/projects'
+      path: '/ru/projects'
+      fullPath: '/ru/projects'
+      preLoaderRoute: typeof RuProjectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/services': {
+      id: '/ru/services'
+      path: '/ru/services'
+      fullPath: '/ru/services'
+      preLoaderRoute: typeof RuServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ru/testimonials': {
+      id: '/ru/testimonials'
+      path: '/ru/testimonials'
+      fullPath: '/ru/testimonials'
+      preLoaderRoute: typeof RuTestimonialsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/': {
+      id: '/sv/'
+      path: '/sv'
+      fullPath: '/sv/'
+      preLoaderRoute: typeof SvIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/about': {
+      id: '/sv/about'
+      path: '/sv/about'
+      fullPath: '/sv/about'
+      preLoaderRoute: typeof SvAboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/contact': {
+      id: '/sv/contact'
+      path: '/sv/contact'
+      fullPath: '/sv/contact'
+      preLoaderRoute: typeof SvContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/cookie-policy': {
+      id: '/sv/cookie-policy'
+      path: '/sv/cookie-policy'
+      fullPath: '/sv/cookie-policy'
+      preLoaderRoute: typeof SvCookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/legal-notice': {
+      id: '/sv/legal-notice'
+      path: '/sv/legal-notice'
+      fullPath: '/sv/legal-notice'
+      preLoaderRoute: typeof SvLegalNoticeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/privacy-policy': {
+      id: '/sv/privacy-policy'
+      path: '/sv/privacy-policy'
+      fullPath: '/sv/privacy-policy'
+      preLoaderRoute: typeof SvPrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/projects': {
+      id: '/sv/projects'
+      path: '/sv/projects'
+      fullPath: '/sv/projects'
+      preLoaderRoute: typeof SvProjectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/services': {
+      id: '/sv/services'
+      path: '/sv/services'
+      fullPath: '/sv/services'
+      preLoaderRoute: typeof SvServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sv/testimonials': {
+      id: '/sv/testimonials'
+      path: '/sv/testimonials'
+      fullPath: '/sv/testimonials'
+      preLoaderRoute: typeof SvTestimonialsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -426,6 +1326,14 @@ const rootRouteChildren: RootRouteChildren = {
   ServiciosRoute: ServiciosRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TestimoniosRoute: TestimoniosRoute,
+  DeAboutRoute: DeAboutRoute,
+  DeContactRoute: DeContactRoute,
+  DeCookiePolicyRoute: DeCookiePolicyRoute,
+  DeLegalNoticeRoute: DeLegalNoticeRoute,
+  DePrivacyPolicyRoute: DePrivacyPolicyRoute,
+  DeProjectsRoute: DeProjectsRoute,
+  DeServicesRoute: DeServicesRoute,
+  DeTestimonialsRoute: DeTestimonialsRoute,
   EnAboutRoute: EnAboutRoute,
   EnContactRoute: EnContactRoute,
   EnCookiePolicyRoute: EnCookiePolicyRoute,
@@ -434,7 +1342,44 @@ const rootRouteChildren: RootRouteChildren = {
   EnProjectsRoute: EnProjectsRoute,
   EnServicesRoute: EnServicesRoute,
   EnTestimonialsRoute: EnTestimonialsRoute,
+  NoAboutRoute: NoAboutRoute,
+  NoContactRoute: NoContactRoute,
+  NoCookiePolicyRoute: NoCookiePolicyRoute,
+  NoLegalNoticeRoute: NoLegalNoticeRoute,
+  NoPrivacyPolicyRoute: NoPrivacyPolicyRoute,
+  NoProjectsRoute: NoProjectsRoute,
+  NoServicesRoute: NoServicesRoute,
+  NoTestimonialsRoute: NoTestimonialsRoute,
+  PtAboutRoute: PtAboutRoute,
+  PtContactRoute: PtContactRoute,
+  PtCookiePolicyRoute: PtCookiePolicyRoute,
+  PtLegalNoticeRoute: PtLegalNoticeRoute,
+  PtPrivacyPolicyRoute: PtPrivacyPolicyRoute,
+  PtProjectsRoute: PtProjectsRoute,
+  PtServicesRoute: PtServicesRoute,
+  PtTestimonialsRoute: PtTestimonialsRoute,
+  RuAboutRoute: RuAboutRoute,
+  RuContactRoute: RuContactRoute,
+  RuCookiePolicyRoute: RuCookiePolicyRoute,
+  RuLegalNoticeRoute: RuLegalNoticeRoute,
+  RuPrivacyPolicyRoute: RuPrivacyPolicyRoute,
+  RuProjectsRoute: RuProjectsRoute,
+  RuServicesRoute: RuServicesRoute,
+  RuTestimonialsRoute: RuTestimonialsRoute,
+  SvAboutRoute: SvAboutRoute,
+  SvContactRoute: SvContactRoute,
+  SvCookiePolicyRoute: SvCookiePolicyRoute,
+  SvLegalNoticeRoute: SvLegalNoticeRoute,
+  SvPrivacyPolicyRoute: SvPrivacyPolicyRoute,
+  SvProjectsRoute: SvProjectsRoute,
+  SvServicesRoute: SvServicesRoute,
+  SvTestimonialsRoute: SvTestimonialsRoute,
+  DeIndexRoute: DeIndexRoute,
   EnIndexRoute: EnIndexRoute,
+  NoIndexRoute: NoIndexRoute,
+  PtIndexRoute: PtIndexRoute,
+  RuIndexRoute: RuIndexRoute,
+  SvIndexRoute: SvIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

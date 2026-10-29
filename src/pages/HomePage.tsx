@@ -22,7 +22,7 @@ import { GoogleIcon } from "@/components/site/GoogleIcon";
 import { SiteLayout, CtaBanner } from "@/components/site/SiteLayout";
 import { BeforeAfter } from "@/components/site/BeforeAfter";
 import { company, images, projects, serviceAreas, services, testimonials } from "@/lib/site";
-import { contactPathWithType, dictionaries, path, type Locale } from "@/lib/i18n";
+import { contactPathWithType, dictionaries, path, type Locale, extraText } from "@/lib/i18n";
 
 const icons: Record<string, typeof Home> = {
   Home,
@@ -48,9 +48,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         <img
           src={images.homeHero}
           alt={
-            locale === "es"
-              ? "Profesional de DM Reformas trabajando en una reforma en Torrevieja"
-              : "DM Reformas professional working on a renovation in Torrevieja"
+            extraText(locale, "homeHeroAlt")
           }
           width={1920}
           height={1088}
@@ -110,9 +108,7 @@ export function HomePage({ locale }: { locale: Locale }) {
           <img
             src={images.artisan}
             alt={
-              locale === "es"
-                ? "Profesional de DM Reformas trabajando en una obra en Torrevieja"
-                : "DM Reformas professional working on a site in Torrevieja"
+              extraText(locale, "homeAboutAlt")
             }
             width={1139}
             height={928}

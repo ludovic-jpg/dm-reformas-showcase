@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { locales, routePaths, type PageKey } from "@/lib/i18n";
+import { dictionaries, locales, routePaths, type PageKey } from "@/lib/i18n";
 
 const SITE_URL = "https://reformasorihuelacosta.com";
 
@@ -24,7 +24,7 @@ function buildSitemap() {
         const alternates = locales
           .map(
             (alt) =>
-              `    <xhtml:link rel="alternate" hreflang="${alt}" href="${SITE_URL}${routePaths[alt][page]}"/>`,
+              `    <xhtml:link rel="alternate" hreflang="${dictionaries[alt].htmlLang}" href="${SITE_URL}${routePaths[alt][page]}"/>`,
           )
           .concat(
             `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${routePaths.es[page]}"/>`,
