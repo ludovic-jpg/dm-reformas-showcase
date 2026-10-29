@@ -1,3 +1,4 @@
+import { locales } from "@/lib/i18n";
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
@@ -10,7 +11,7 @@ const submissionSchema = z.object({
   message: z.string().trim().min(5).max(4000),
   extra: z.record(z.string().max(200)).default({}),
   photoUrls: z.array(z.string().max(500)).max(5).default([]),
-  locale: z.enum(["es", "en"]).default("es"),
+  locale: z.enum(locales).default("es"),
   sourcePage: z.string().trim().max(200).optional().default(""),
   // Honeypot: must stay empty for real humans.
   companyWebsite: z.string().max(200).optional().default(""),

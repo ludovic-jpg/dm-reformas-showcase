@@ -1,5 +1,5 @@
 import { company, serviceAreas } from "./site";
-import { dictionaries, otherLocale, routePaths, type Locale, type PageKey } from "./i18n";
+import { dictionaries, locales, ogLocales, routePaths, type Locale, type PageKey } from "./i18n";
 
 export const localBusinessJsonLd = {
   "@context": "https://schema.org",
@@ -51,8 +51,6 @@ const abs = (p: string) => `${SITE_URL}${p === "/" ? "" : p}` || SITE_URL;
 export function pageHead(locale: Locale, page: PageKey, extraJsonLd?: unknown) {
   const meta = dictionaries[locale].meta[page];
   const self = abs(routePaths[locale][page]) || SITE_URL;
-  const alt = otherLocale(locale);
-  const altHref = abs(routePaths[alt][page]);
 
   const scripts = [
     {
@@ -87,8 +85,10 @@ export function pageHead(locale: Locale, page: PageKey, extraJsonLd?: unknown) {
       { property: "og:title", content: meta.title },
       { property: "og:description", content: meta.description },
       { property: "og:type", content: page === "home" ? "website" : "article" },
-      { property: "og:locale", content: locale === "es" ? "es_ES" : "en_GB" },
-      { property: "og:locale:alternate", content: alt === "es" ? "es_ES" : "en_GB" },
+      { property: "og:locale", content: ogLocales[locale] },
+      ...locales
+        .filter((l) => l !== locale)
+        .map((l) => ({ property: "og:locale:alternate", content: ogLocales[l] })),
       { property: "og:site_name", content: company.name },
       { property: "og:url", content: self },
       { property: "og:image", content: OG_IMAGE },
@@ -103,8 +103,11 @@ export function pageHead(locale: Locale, page: PageKey, extraJsonLd?: unknown) {
     ],
     links: [
       { rel: "canonical", href: self },
-      { rel: "alternate", hrefLang: locale, href: self },
-      { rel: "alternate", hrefLang: alt, href: altHref },
+      ...locales.map((l) => ({
+        rel: "alternate",
+        hrefLang: dictionaries[l].htmlLang,
+        href: abs(routePaths[l][page]) || SITE_URL,
+      })),
       { rel: "alternate", hrefLang: "x-default", href: abs(routePaths.es[page]) || SITE_URL },
     ],
     scripts,
